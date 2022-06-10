@@ -1,0 +1,135 @@
+{
+  "feeTag": {
+    "_id": "",
+    "chargeCode": "TitleFee",
+    "productCode": "test product code",
+    "stateCode": "LA",
+    "tagName": "test tag name"
+  },
+  "feeTags": {
+    "pageData": [
+      {
+        "_id": "",
+        "chargeCode": "TitleFee",
+        "productCode": "test product code",
+        "stateCode": "LA",
+        "tagName": "test tag name"
+      }
+    ],
+    "total": 366,
+    "isLoading": false,
+    "size": 10
+  },
+  "referenceData": [
+    {
+      "_id": "611f868a0fc956ed69f28e62",
+      "isActive": true,
+      "typeCode": "USAState",
+      "typeName": "USA State",
+      "typeDisplayName": "USA State",
+      "typeDescription": "USA State",
+      "createdAt": "2021-08-20T10:40:10.822Z",
+      "updatedAt": "2021-08-20T10:40:10.822Z",
+      "lookups": [
+        {
+          "code": "AL",
+          "name": "Alabama",
+          "description": "Alabama",
+          "displayName": "Alabama",
+          "isActive": true,
+          "additionalInfo": null,
+          "createdOn": "2021-08-20T10:40:11.036Z",
+          "updatedOn": "2021-08-20T10:40:11.036Z"
+        },
+        {
+          "code": "AK",
+          "name": "Alaska",
+          "description": "Alaska",
+          "displayName": "Alaska",
+          "isActive": true,
+          "additionalInfo": null,
+          "createdOn": "2021-08-20T10:40:11.036Z",
+          "updatedOn": "2021-08-20T10:40:11.036Z"
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "61377c4e23aa9b6047a731d3",
+      "isActive": true,
+      "typeCode": "FinancialProduct",
+      "typeName": "Financial Product",
+      "typeDisplayName": "Financial Product",
+      "typeDescription": "Financial Product",
+      "createdAt": "2021-09-07T14:50:54.617Z",
+      "updatedAt": "2021-09-07T14:50:54.617Z",
+      "lookups": [
+        {
+          "code": "EasyRide",
+          "name": "EasyRide",
+          "description": "EasyRide",
+          "displayName": "EasyRide",
+          "isActive": true,
+          "additionalInfo": null,
+          "createdAt": "2021-09-07T14:50:54.617Z",
+          "updatedAt": "2021-09-07T14:50:54.617Z"
+        },
+        {
+          "code": "Finance",
+          "name": "Finance",
+          "description": "Finance",
+          "displayName": "Finance",
+          "isActive": true,
+          "additionalInfo": null,
+          "createdAt": "2021-09-07T14:50:54.617Z",
+          "updatedAt": "2021-09-07T14:50:54.617Z"
+        }
+      ],
+      "__v": 0
+    }
+  ],
+  "charges": [
+    {
+      "_id": "611f868943931519c7a44582",
+      "chargeCode": "TitleFee",
+      "chargeDisplayName": "Title Fee",
+      "isActive": true,
+      "tagName": "RegistrationFee",
+      "createdAt": "2021-08-20T10:40:09.809Z",
+      "updatedAt": "2021-08-20T10:40:09.809Z",
+      "__v": 0
+    },
+    {
+      "_id": "611f868943931519c7a44583",
+      "chargeCode": "LicenseFee",
+      "chargeDisplayName": "License Fee",
+      "isActive": true,
+      "tagName": "LicenseFee",
+      "createdAt": "2021-08-20T10:40:09.809Z",
+      "updatedAt": "2021-08-20T10:40:09.809Z",
+      "__v": 0
+    }
+  ],
+  "options": {
+    "states": [
+      {
+        "label": "Alabama",
+        "value": "AL"
+      },
+      {
+        "label": "Alaska",
+        "value": "AK"
+      }
+    ],
+    "financialProducts": [
+      {
+        "label": "Finance",
+        "value": "Finance"
+      },
+      {
+        "label": "EasyRide",
+        "value": "EasyRide"
+      }
+    ]
+  }
+}

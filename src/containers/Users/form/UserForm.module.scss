@@ -1,0 +1,48 @@
+@import "theme";
+
+.row {
+  display: flex;
+}
+
+.centered {
+  justify-content: center;
+}
+
+.cell {
+  flex: 1;
+  & + & {
+    margin-left: 10px;
+  }
+}
+
+.button {
+  width: auto;
+
+  & + & {
+    margin-left: 10px;
+  }
+}
+
+.editColumn {
+  position: absolute;
+  right: 30px;
+  z-index: 100;
+  background: inherit;
+}
+
+.tablewithEdit {
+  :global .p-datatable-thead {
+    tr > th:last-of-type {
+      min-width: 50px;
+    }
+    tr:first-of-type > th:last-of-type {
+      position: relative;
+    }
+  }
+  :global .p-datatable-tbody {
+    tr > td:last-of-type {
+      border-top: none;
+      border-left: 1px solid $table-gray;
+    }
+  }
+}

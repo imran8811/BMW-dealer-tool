@@ -1,0 +1,153 @@
+@import "theme";
+@import "~bootstrap/scss/mixins/_breakpoints";
+
+div.switch-dealership-status {
+  width: 2.44rem;
+  height: 1.2rem;
+  span::before {
+    width: 1.02rem;
+    height: 1.05rem;
+    left: 0.1rem;
+    margin-top: -0.53rem;
+  }
+}
+
+.wrapper {
+  display: flex;
+  align-items: initial;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.overlay {
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba($body-muted, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.filter {
+  min-width: max-content;
+}
+.row {
+  display: flex;
+}
+
+.centered {
+  justify-content: center;
+}
+
+.cell {
+  flex: 1;
+  & + & {
+    margin-left: 10px;
+  }
+}
+
+.button {
+  width: auto;
+
+  & + & {
+    margin-left: 10px;
+  }
+  @include media-breakpoint-down(md) {
+    padding: 0.8125rem 1.9rem;
+  }
+}
+
+.form {
+  max-width: 480px;
+}
+.columnLeft {
+  padding-right: 0.3125rem;
+  @include media-breakpoint-down(md) {
+    padding: 1.5rem;
+    padding-bottom: 0px;
+  }
+}
+.columnLeftcity {
+  padding-right: 0.3125rem;
+  @include media-breakpoint-down(md) {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+}
+
+.columnRightemail {
+  padding-left: 0.3125rem;
+  @include media-breakpoint-down(md) {
+    padding-left: 1.5rem;
+    padding-bottom: 0px;
+    padding-top: 15px;
+  }
+}
+
+.columnRight {
+  padding-left: 0.3125rem;
+  @include media-breakpoint-down(md) {
+    padding-left: 1.5rem;
+    padding-bottom: 13px;
+  }
+}
+
+.columnMid {
+  padding-left: 0.3125rem;
+  padding-right: 0.3125rem;
+  @include media-breakpoint-down(md) {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+}
+
+.filter-input {
+  margin-bottom: 0rem;
+}
+
+.dialogWrapper {
+  padding: 0px;
+}
+
+.editColumn {
+  position: absolute;
+  right: 0px;
+  z-index: 100;
+  background: inherit;
+}
+
+.tablewithEdit {
+  :global .p-datatable-thead {
+    tr > th:last-of-type {
+      min-width: 50px;
+    }
+    tr:first-of-type > th:last-of-type {
+      position: relative;
+    }
+  }
+  :global .p-datatable-tbody {
+    tr > td:last-of-type {
+      border-top: none;
+      border-left: 1px solid $table-gray;
+    }
+  }
+  :global .p-filter-column .p-multiselect {
+    .p-multiselect-label.p-placeholder {
+      color: #75777c;
+      font-weight: 500;
+      margin-top: -2px;
+    }
+  }
+}
+.confirmPadding {
+  padding: 10px 5px;
+  p {
+    font-weight: bold;
+  }
+}

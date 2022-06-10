@@ -1,0 +1,30 @@
+@import "theme";
+@import "~bootstrap/scss/mixins/_breakpoints";
+
+.titleMd {
+  font-size: 2rem;
+  @include media-breakpoint-down(md) {
+    font-size: 1.125rem;
+  }
+}
+.titleLg {
+  font-size: 2.5rem;
+  @include media-breakpoint-down(md) {
+    font-size: 1.5rem;
+  }
+}
+.price {
+  color: $primary;
+}
+.price_title {
+  font-size: 0.875rem;
+  font-weight: normal;
+}
+
+.auto_info {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  span {
+    color: $text-muted;
+  }
+}

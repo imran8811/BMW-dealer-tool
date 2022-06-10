@@ -1,0 +1,9 @@
+@import "theme";
+@import "~bootstrap/scss/forms";
+
+.formControl {
+  @extend .form-control;
+}
+.clearbtn{
+  padding-right: 2.3rem;
+}

@@ -1,0 +1,152 @@
+@import "theme";
+@import "primereact/badge";
+
+$navigationPadding: $grid-gutter-width / 2;
+
+.navigationWrapper {
+  background: $body-bg;
+  border-bottom: $border-width solid $light-grey;
+}
+
+.navigationContainer {
+  @include media-breakpoint-down(md) {
+    max-width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.navigation {
+  height: 4rem;
+  padding-left: 0;
+  padding-right: 0;
+
+  @include media-breakpoint-up(lg) {
+    height: 5rem;
+  }
+}
+
+.navigation :global .p-submenu-icon {
+  width: $spacer;
+  height: $spacer / 2;
+  background-image: url("../../common/assets/chevron-gray.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.logo {
+  color: $black;
+  width: $logo-width;
+  @include media-breakpoint-down(md) {
+    margin-left: $grid-gutter-width;
+  }
+}
+
+.navigation .active > a,
+.navigation .active > a .p-menuitem-text {
+  color: $nav-active-link-color;
+  font-weight: $font-weight-bold;
+}
+
+.navigation :global .p-menubar-root-list {
+  float: right;
+  li {
+    padding: 0;
+    display: inline-block;
+    .p-menuitem-link {
+      padding: 0 20px !important;
+    }
+  }
+  .p-submenu-list {
+    li {
+      display: block;
+      .p-menuitem-link {
+        padding: 0 10px !important;
+      }
+    }
+  }
+}
+
+.badge {
+  @extend .p-badge;
+}
+
+@include media-breakpoint-up(lg) {
+  .navigation :global .p-submenu-icon {
+    margin-left: $spacer / 4;
+  }
+
+  .navigation :global .p-menubar-root-list > li {
+    // padding: 0 ($navigationPadding / 4);
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+
+  .withUsername :global .p-menubar-root-list > li:nth-last-child(2) {
+    margin-right: ($navigationPadding / 4);
+  }
+
+  .withUsername :global .p-menubar-root-list > li:last-child {
+    border-left: $border-width solid $body-muted;
+    // padding-left: ($navigationPadding / 2);
+
+    .p-menuitem-link {
+      padding-right: 0;
+    }
+  }
+
+  .withUsername :global .p-menubar-root-list > li:last-child > .p-submenu-list {
+    right: 0;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .navigation .active > a .p-menuitem-text {
+    color: $nav-active-link-color;
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .withUsername :global .p-menubar-root-list > li:nth-last-child(2) {
+    margin-right: $navigationPadding;
+  }
+}
+
+@media (max-width: $xl-grid) {
+  .navigation :global .p-menubar-root-list > li {
+    .p-menuitem-link {
+      font-size: $font-size-sm;
+      padding: 0 10px !important;
+    }
+    padding: 0;
+  }
+}
+
+@media (max-width: $xl-grid) {
+  .logo {
+    width: $responsive-logo-width;
+  }
+}
+
+// Mobile navigation
+
+.navigation :global .p-menubar-button {
+  margin-left: auto;
+  border-left: $border-width solid $light-grey;
+}
+
+.navigation :global .p-menubar-start {
+  @include media-breakpoint-down(md) {
+    width: 136px;
+    text-align: end;
+    padding-right: 14px;
+  }
+}
+
+.navigation :global .pi-bars {
+  background: url("../../common/assets/menu.svg") no-repeat center center;
+  background-size: contain;
+  width: 1.5rem;
+  height: 1.5rem;
+}

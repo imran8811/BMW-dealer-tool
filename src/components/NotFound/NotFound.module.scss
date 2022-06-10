@@ -1,0 +1,19 @@
+@import "theme";
+
+.element {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.heading {
+  color: $primary;
+}
+
+.subtitle {
+  font-size: 40px;
+  margin-top: 50px;
+  font-weight: bold;
+}

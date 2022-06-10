@@ -1,0 +1,15 @@
+@import "theme";
+
+.element {
+  color: $text-muted;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+}
+
+.element:focus {
+  outline: none;
+}

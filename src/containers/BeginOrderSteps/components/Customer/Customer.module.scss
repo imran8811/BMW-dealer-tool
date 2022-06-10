@@ -1,0 +1,9 @@
+@import "theme";
+@import "~bootstrap/scss/mixins/_breakpoints";
+
+.wrapValue {
+  @include media-breakpoint-down(sm) {
+    max-width: 60%;
+    word-break: break-all;
+  }
+}

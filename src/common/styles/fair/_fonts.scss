@@ -1,0 +1,27 @@
+$relPath: "../../assets/fonts/";
+
+@if $NODE_ENV == "development" {
+  $relPath: "../assets/fonts/";
+}
+
+@mixin font-face($name, $file, $weight: "400", $style: normal) {
+  $filepath: $relPath + $file;
+
+  @font-face {
+    font-family: "#{$name}";
+    font-style: $style;
+    font-weight: $weight;
+    src: url($filepath + ".woff2") format("woff2"), url($filepath + ".woff") format("woff"),
+      url($filepath + ".ttf") format("truetype");
+    font-display: swap;
+  }
+}
+
+@include font-face("MINISansSerif", "MINISansSerif-Regular", 400);
+@include font-face("MINISansSerif", "MINISansSerif-Bold", 700);
+
+@include font-face("MINISerif", "MINISerif-Regular", 400);
+@include font-face("MINISerif", "MINISerif-Italic", 400, italic);
+@include font-face("MINISerif", "MINISerif-Medium", 500);
+@include font-face("MINISerif", "MINISerif-Bold", 700);
+@include font-face("MINIHeadlineSerif", "MINISerif-Headline", 700);

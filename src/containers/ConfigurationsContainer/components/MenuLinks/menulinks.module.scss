@@ -1,0 +1,24 @@
+@import "theme";
+@import "~bootstrap/scss/mixins/_breakpoints";
+
+.configColumn {
+  display: flex;
+  align-items: flex-end;
+}
+.wrap {
+  display: flex;
+  flex-direction: row;
+  @include media-breakpoint-down(md) {
+    flex-direction: column;
+  }
+}
+.BasketIcon {
+  align-self: center;
+  @include media-breakpoint-down(lg) {
+    text-align: center;
+  }
+}
+
+.loading {
+  cursor: no-drop;
+}

@@ -1,0 +1,78 @@
+@import "theme";
+@import "~bootstrap/scss/utilities/spacing";
+@import "~bootstrap/scss/forms";
+@import "~bootstrap/scss/custom-forms";
+
+$switch-width: 24;
+$switch-height: 17;
+$switch-border: 1;
+$switch-indicator: $switch-height - ($switch-border * 2);
+
+@function pxToRem($value) {
+  @return ((1rem * $value) / 16);
+}
+
+.inputSwitch {
+  @extend .custom-control;
+  @extend .custom-switch;
+  padding: 0;
+  display: inline;
+}
+
+.label {
+  cursor: pointer;
+  margin: 0;
+  display: inline;
+}
+
+.textRight {
+  @extend .ml-2;
+  font-size: $font-size-sm;
+}
+
+.textLeft {
+  @extend .mr-2;
+  font-size: $font-size-sm;
+}
+.disabled {
+  opacity: 0.5;
+
+  .label {
+    cursor: default;
+  }
+}
+
+.input {
+  @extend .custom-control-input;
+}
+
+.indicator {
+  pointer-events: all;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: (4rem / 16);
+  width: pxToRem($switch-width);
+  height: pxToRem($switch-height);
+  background: $text-muted;
+  border-radius: pxToRem($switch-height / 2);
+  transition: background-color 0.1s ease-out;
+
+  &:after {
+    width: pxToRem($switch-indicator);
+    height: pxToRem($switch-indicator);
+    margin: pxToRem($switch-border);
+    border-radius: pxToRem($switch-indicator / 2);
+    display: block;
+    content: " ";
+    background: $white;
+    transition: transform 0.1s ease-out;
+  }
+
+  &.checked {
+    background: $primary;
+
+    &:after {
+      transform: translateX(pxToRem($switch-width - ($switch-border * 2) - $switch-indicator));
+    }
+  }
+}

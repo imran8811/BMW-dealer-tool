@@ -1,0 +1,27 @@
+@import "theme";
+@import "~bootstrap/scss/mixins/_breakpoints";
+
+.dealSummary {
+  p {
+    @include media-breakpoint-down(sm) {
+      max-width: 50%;
+    }
+  }
+}
+.textHighlighted {
+  color: $primary;
+  font-size: 0.875rem;
+  line-height: 20px;
+}
+.overlay {
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba($body-muted, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}

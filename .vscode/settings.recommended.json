@@ -1,0 +1,17 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.foreground": "#f1f1f1",
+    "activityBarBadge.background": "#ac2430",
+    "activityBarBadge.foreground": "#f1f1f1",
+    "statusBar.background": "#ac2430",
+    "statusBar.foreground": "#ffffff"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "editor.formatOnSave": false,
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "window.title": "${dirty}${activeEditorShort}${separator}OTOZ Mini - Core",
+  "eslint.workingDirectories": [{ "directory": "./", "changeProcessCWD": true }]
+}

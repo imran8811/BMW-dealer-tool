@@ -1,0 +1,179 @@
+@import "theme";
+@import "~bootstrap/scss/grid";
+
+.addon-section-heading {
+  h2 {
+    text-transform: uppercase;
+  }
+}
+
+.addon-accordion {
+  :global a.p-accordion-header-link {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: $black;
+    padding: 10px 1px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    span.pi-chevron-right::before {
+      content: url("./arrow-dn.svg");
+    }
+    span.pi-chevron-down::before {
+      content: url("./arrow-up.svg");
+    }
+  }
+  :global .p-accordion-content {
+    overflow-y: auto;
+    max-height: 420px;
+  }
+}
+
+.addon-list-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.addon-item {
+  width: 278px;
+  height: 364px;
+  padding: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid $light-grey;
+  margin-bottom: 24px;
+  margin-right: 15px;
+  @include media-breakpoint-down(lg) {
+    width: 250px;
+    height: 340px;
+    padding: 18px;
+    margin-right: 12px;
+  }
+
+  @include media-breakpoint-down(md) {
+    width: 300px;
+    height: 359px;
+    margin-right: 14px;
+  }
+
+  @include media-breakpoint-down(sm) {
+    width: 100%;
+    height: 360px;
+    margin-right: 0px;
+  }
+
+  div.image {
+    height: 172px;
+    margin-bottom: 12px;
+    img,
+    svg {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .title {
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 2px 0;
+    color: $black;
+  }
+  .price {
+    font-weight: 700;
+    color: $black;
+    padding: 2px 0;
+    line-height: 20px;
+    font-size: 14px;
+  }
+}
+
+.addon-item.hide-image {
+  height: max-content;
+  div.image {
+    display: none;
+  }
+}
+
+.addon-list-wrap .addon-item button.detail-btn {
+  font-size: 12px;
+  line-height: 16px;
+  color: $primary;
+  margin: 8px 0 16px 0;
+  padding-left: 0;
+  background: transparent;
+  outline: none;
+  border: 0;
+  text-align: left;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.calculation {
+  display: flex;
+  justify-content: space-between;
+  padding: 17px 0;
+  color: $black;
+  border-bottom: 1px solid $light-grey;
+}
+.actionBtn {
+  display: flex;
+  padding: 20px 0;
+  justify-content: center;
+
+  & button {
+    margin: 0 10px;
+  }
+
+  @include media-breakpoint-down(sm) {
+    flex-direction: column;
+    & button {
+      margin: 10px 0;
+    }
+  }
+}
+
+.addon-desc-wrap {
+  width: 700px;
+  min-height: 100%;
+  :global .p-dialog-header-icons {
+    display: none;
+  }
+  :global .p-dialog-title {
+    width: 100%;
+    & div {
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid;
+      padding-bottom: 20px;
+    }
+    & div h3 {
+      margin: auto;
+      text-transform: uppercase;
+    }
+    & div svg {
+      cursor: pointer;
+    }
+  }
+}
+
+.error {
+  color: $primary;
+}
+
+.customerReferralDialog {
+  :global .p-dialog-header-icons {
+    display: none;
+  }
+  @include media-breakpoint-up(md) {
+    width: 540px;
+  }
+  :global .p-dialog-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}

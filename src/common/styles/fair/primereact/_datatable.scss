@@ -1,0 +1,414 @@
+@import "theme";
+/* stylelint-disable no-descending-specificity, no-duplicate-selectors, max-nesting-depth */
+
+.p-datatable {
+  position: relative;
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+  }
+
+  .p-sortable-column {
+    cursor: pointer;
+    user-select: none;
+
+    .p-column-title,
+    .p-sortable-column-icon {
+      vertical-align: middle;
+    }
+
+    .p-sortable-column-badge {
+      vertical-align: middle;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+.p-datatable-auto-layout > .p-datatable-wrapper {
+  overflow-x: auto;
+
+  > table {
+    table-layout: auto;
+  }
+}
+
+.p-datatable-hoverable-rows .p-selectable-row {
+  cursor: pointer;
+}
+
+.p-datatable-scrollable-wrapper {
+  position: relative;
+}
+
+.p-datatable-scrollable-header,
+.p-datatable-scrollable-footer {
+  overflow: hidden;
+}
+
+.p-datatable-scrollable-body {
+  overflow: auto;
+  position: relative;
+
+  > table > .p-datatable-tbody > tr:first-child > td {
+    border-top: 0 none;
+  }
+}
+
+.p-datatable-virtual-table {
+  position: absolute;
+}
+
+.p-datatable-frozen-view {
+  .p-datatable-scrollable-body {
+    overflow: hidden;
+  }
+
+  > .p-datatable-scrollable-body > table > .p-datatable-tbody > tr > td:last-child {
+    border-right: 0 none;
+  }
+}
+
+.p-datatable-unfrozen-view {
+  position: absolute;
+  top: 0;
+}
+
+.p-datatable-flex-scrollable {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100%;
+
+  .p-datatable-scrollable-wrapper,
+  .p-datatable-scrollable-view {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100%;
+  }
+
+  .p-datatable-scrollable-body {
+    flex: 1;
+  }
+}
+
+.p-datatable-resizable {
+  > .p-datatable-wrapper {
+    overflow-x: auto;
+  }
+
+  // Creating issue with multiselect field when resizable prop is true
+  // .p-datatable-thead > tr > th {
+  //   overflow: hidden;
+  // }
+  .p-datatable-tfoot > tr > td,
+  .p-datatable-tbody > tr > td {
+    overflow: hidden;
+  }
+
+  .p-resizable-column {
+    background-clip: padding-box;
+    position: relative;
+  }
+}
+
+.p-datatable-resizable-fit .p-resizable-column:last-child .p-column-resizer {
+  display: none;
+}
+
+.p-datatable {
+  .p-column-resizer {
+    display: block;
+    position: absolute !important;
+    top: 0;
+    right: 0;
+    margin: 0;
+    width: 0.5rem;
+    height: 100%;
+    padding: 0;
+    cursor: col-resize;
+    border: 1px solid transparent;
+  }
+
+  .p-column-resizer-helper {
+    width: 1px;
+    position: absolute;
+    z-index: 10;
+    display: none;
+  }
+
+  .p-row-editor-init,
+  .p-row-editor-save,
+  .p-row-editor-cancel,
+  .p-row-toggler {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+  }
+}
+
+.p-datatable-reorder-indicator-up,
+.p-datatable-reorder-indicator-down {
+  position: absolute;
+  display: none;
+}
+
+.p-datatable .p-datatable-loading-overlay {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.p-datatable {
+  .p-paginator-top,
+  .p-paginator-bottom {
+    border-width: 1px 0 0 0;
+    border-radius: 0;
+  }
+
+  .p-datatable-header {
+    background: rgba(0, 0, 0, 0.03);
+    color: $text-muted;
+    border: solid #dee2e6;
+    border-width: 1px 0 0 0;
+    padding: 1rem 1rem;
+    font-weight: 600;
+  }
+
+  .p-datatable-footer {
+    background: rgba(0, 0, 0, 0.03);
+    color: $text-muted;
+    border: 1px solid #dee2e6;
+    border-width: 1px 0 1px 0;
+    padding: 1rem 1rem;
+    font-weight: 600;
+  }
+
+  .p-datatable-thead > tr > th {
+    text-align: left;
+    padding: 1rem 1rem;
+    border: 1px solid $body-muted;
+    border-width: 0 0 1px 0;
+    font-weight: 600;
+    color: $text-muted;
+    background: $white;
+    transition: box-shadow 0.15s;
+
+    &.p-filter-column {
+      padding: (12rem / 16);
+    }
+  }
+
+  .p-datatable-tfoot > tr > td {
+    text-align: left;
+    padding: 1rem 1rem;
+    border: 1px solid #dee2e6;
+    border-width: 1px 0 1px 0;
+    font-weight: 600;
+    color: $text-muted;
+    background: $white;
+  }
+
+  .p-sortable-column {
+    outline-color: rgba(172, 36, 48, 1);
+
+    .p-sortable-column-icon {
+      color: #6c757d;
+      margin-left: 0.5rem;
+    }
+
+    .p-sortable-column-badge {
+      border-radius: 50%;
+      height: 1.143rem;
+      min-width: 1.143rem;
+      line-height: 1.143rem;
+      color: $white;
+      background: $primary;
+      margin-left: 0.5rem;
+    }
+
+    &:not(.p-highlight):hover {
+      background: #e9ecef;
+      color: $text-muted;
+
+      .p-sortable-column-icon {
+        color: #6c757d;
+      }
+    }
+
+    &.p-highlight {
+      background: $white;
+      color: $primary;
+
+      .p-sortable-column-icon {
+        color: $primary;
+      }
+    }
+  }
+
+  .p-datatable-tbody > tr {
+    background: $white;
+    color: $text-muted;
+    transition: box-shadow 0.15s;
+    outline-color: rgba(172, 36, 48, 1);
+
+    > td {
+      text-align: left;
+      border: 1px solid #dee2e6;
+      border-width: 1px 0 0 0;
+      padding: 1rem 1rem;
+
+      .p-row-toggler,
+      .p-row-editor-init,
+      .p-row-editor-save,
+      .p-row-editor-cancel {
+        width: 2rem;
+        height: 2rem;
+        color: #6c757d;
+        border: 0 none;
+        background: transparent;
+        border-radius: 50%;
+        transition: box-shadow 0.15s;
+      }
+
+      .p-row-toggler:enabled:hover,
+      .p-row-editor-init:enabled:hover,
+      .p-row-editor-save:enabled:hover,
+      .p-row-editor-cancel:enabled:hover {
+        color: #495057;
+        border-color: transparent;
+        background: transparent;
+      }
+
+      .p-row-toggler:focus,
+      .p-row-editor-init:focus,
+      .p-row-editor-save:focus,
+      .p-row-editor-cancel:focus {
+        outline: 0 none;
+        outline-offset: 0;
+        box-shadow: 0 0 0 0.2rem rgba(172, 36, 48, 1);
+      }
+
+      .p-row-editor-save {
+        margin-right: 0.5rem;
+      }
+    }
+
+    &.p-highlight {
+      // background: darken($body-muted, 7%);
+      background: $selectionBackground;
+      color: lighten($black, 5%);
+    }
+
+    &.p-datatable-dragpoint-top > td {
+      box-shadow: inset 0 2px 0 0 $primary;
+    }
+
+    &.p-datatable-dragpoint-bottom > td {
+      box-shadow: inset 0 -2px 0 0 $primary;
+    }
+  }
+
+  &.p-datatable-hoverable-rows .p-datatable-tbody > tr:not(.p-highlight):hover {
+    background: $body-muted;
+
+    /* color: $text-muted; */
+  }
+
+  .p-column-resizer-helper {
+    background: $primary;
+  }
+
+  .p-datatable-scrollable-header,
+  .p-datatable-scrollable-footer {
+    background: rgba(0, 0, 0, 0.03);
+  }
+
+  .p-datatable-loading-icon {
+    font-size: 2rem;
+  }
+
+  &.p-datatable-gridlines {
+    .p-datatable-header {
+      border-width: 1px 1px 0 1px;
+    }
+
+    .p-datatable-footer {
+      border-width: 0 1px 1px 1px;
+    }
+
+    .p-paginator-top {
+      border-width: 0 1px 0 1px;
+    }
+
+    .p-paginator-bottom {
+      border-width: 0 1px 1px 1px;
+    }
+
+    .p-datatable-thead > tr > th {
+      border-width: 1px 1px 2px 1px;
+    }
+
+    .p-datatable-tbody > tr > td,
+    .p-datatable-tfoot > tr > td {
+      border-width: 1px;
+    }
+  }
+
+  &.p-datatable-striped .p-datatable-tbody > tr:nth-child(even) {
+    background: rgba(0, 0, 0, 0.05);
+
+    &.p-highlight {
+      background: $primary;
+      color: $white;
+
+      .p-row-toggler {
+        color: $white;
+
+        &:hover {
+          color: $white;
+        }
+      }
+    }
+  }
+
+  &.p-datatable-sm {
+    .p-datatable-header,
+    .p-datatable-thead > tr > th,
+    .p-datatable-tfoot > tr > td,
+    .p-datatable-footer {
+      padding-left: (12rem / 16);
+      padding-right: (12rem / 16);
+    }
+
+    .p-datatable-tbody > tr > td {
+      padding: (12rem / 16);
+    }
+  }
+
+  &.p-datatable-lg {
+    .p-datatable-header,
+    .p-datatable-thead > tr > th,
+    .p-datatable-tbody > tr > td,
+    .p-datatable-tfoot > tr > td,
+    .p-datatable-footer {
+      padding: 1.25rem 1.25rem;
+    }
+  }
+
+  .p-selection-column,
+  .p-filter-column {
+    .p-checkbox-box {
+      border-radius: $border-radius-sm;
+      border-color: $text-muted;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+:root {
+  --surface-a: $white;
+  --surface-b: rgba(0, 0, 0, 0.03);
+  --surface-c: $body-muted;
+  --surface-d: #dee2e6;
+  --surface-e: #ffffff;
+  --surface-f: #ffffff;
+  --text-color: #212529;
+  --text-color-secondary: $text-muted;
+  --primary-color: $primary;
+  --primary-color-text: #ffffff;
+  --font-family: $font-family-sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}

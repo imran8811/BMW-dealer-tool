@@ -1,0 +1,19 @@
+@import "theme";
+
+
+.galleria :global(.p-galleria-item-prev-icon),
+.galleria :global(.p-galleria-item-next-icon) {
+    font-size: 2rem;
+    background: url("./assets/gallery-arrow.svg");
+  }
+
+
+.galleria :global(.p-galleria-item-nav),
+.galleria :global(.p-galleria-close) {
+  z-index: $zindex-popover;
+}
+
+.galleria :global(.p-galleria-close-icon) {
+  font-size: 2rem;
+  background: url("./assets/close.svg");
+}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="108.911" height="123.005" viewBox="0 0 108.911 123.005">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px}
+        </style>
+    </defs>
+    <g id="Vehicle_Warning" transform="translate(-6539.828 -2001.874)">
+        <path id="Path_6687" d="M330.29 92.473h10.9" class="cls-1" transform="translate(6233.814 1964.951)"/>
+        <path id="Path_6688" d="M330.29 118.785h40" class="cls-1" transform="translate(6233.814 1958.641)"/>
+        <path id="Path_6689" d="M330.29 145.1h40" class="cls-1" transform="translate(6233.814 1952.33)"/>
+        <path id="Path_6690" d="M387 87.271v39.064a20.269 20.269 0 0 1-20 20.526h-46.672a20.268 20.268 0 0 1-20-20.526v-78.68a3.375 3.375 0 0 1 3.332-3.419h47.554" class="cls-1" transform="translate(6241 1976.519)"/>
+        <path id="Path_6691" fill="none" fill-rule="evenodd" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3px" d="M383.784 75.422L366.7 77.616a.927.927 0 0 1-1.035-1.038l2.194-17.078a1.812 1.812 0 0 1 .5-.946l36.021-36.023c1.808-1.806 5.106-1.442 7.366.818l8.183 8.185c2.26 2.258 2.627 5.558.821 7.364l-36.019 36.019a1.861 1.861 0 0 1-.947.505z" transform="translate(6225.333 1982)"/>
+        <path id="Path_6692" d="M423.551 48.677l-16.368-16.368" class="cls-1" transform="translate(6215.375 1979.379)"/>
+    </g>
+</svg>

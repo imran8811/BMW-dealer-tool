@@ -1,0 +1,188 @@
+/* stylelint-disable no-descending-specificity */
+@import "theme";
+
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/forms";
+
+$checkbox-zindex: 10;
+
+.wrapper {
+  position: relative;
+  :global .p-datatable-wrapper {
+    min-height: 300px;
+  }
+  :global .p-datatable-tbody td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 190px;
+  }
+}
+
+.selectable {
+  :global(.p-datatable-tbody .p-selection-column) {
+    position: absolute;
+    left: 0;
+    background: $white;
+    z-index: $checkbox-zindex;
+  }
+
+  :global(.p-highlight .p-selection-column) {
+    background: $selectionBackground;
+  }
+
+  :global(.p-datatable-thead .p-filter-column:first-child .p-checkbox) {
+    position: absolute;
+    left: 1rem;
+    margin-left: 0.25rem;
+    z-index: $checkbox-zindex + 2;
+  }
+
+  :global(.p-datatable-thead > tr > th.p-filter-column:first-child) {
+    min-width: 3.5rem;
+    vertical-align: top;
+    padding-top: 1.4rem;
+    background: $body-muted;
+
+    &:before {
+      content: " ";
+      z-index: $checkbox-zindex + 1;
+      background: $body-muted;
+      position: absolute;
+      display: block;
+      left: 0;
+      min-width: 3.5rem;
+      height: 3.5rem;
+      margin-top: (0 - (20rem / 16));
+    }
+  }
+
+  :global(.p-datatable-tbody > tr:not(.p-highlight):hover .p-selection-column) {
+    background: $body-muted;
+  }
+
+  :global(.p-datatable-tbody > tr:first-child .p-selection-column) {
+    border-top: $border-size solid transparent;
+  }
+
+  :global(.p-datatable-tbody .p-selection-column .p-checkbox-box) {
+    margin-top: (0 - $border-size);
+  }
+}
+
+.darkText :global .p-datatable-tbody > tr > td {
+  color: $dark;
+}
+
+.table {
+  border-radius: 5px;
+  overflow: hidden;
+  background: $body-bg;
+
+  th {
+    padding: ($spacer / 2 * 3) 1rem $spacer;
+    text-transform: uppercase;
+  }
+  tr {
+    :global(th.p-sortable-column) {
+      padding: 1rem 0.8rem;
+      min-width: 190px;
+    }
+  }
+
+  :global(th.p-filter-column) {
+    text-transform: none;
+    input {
+      min-width: max-content;
+    }
+  }
+
+  td {
+    font-size: $font-size-sm;
+  }
+
+  :global(.p-column-title) {
+    font-size: $font-size-sm;
+  }
+
+  :global(tr.p-datatable-row) td {
+    padding: 12px;
+  }
+
+  :global(.pi-sort-amount-down) {
+    position: relative;
+    &::before {
+      content: url("../../common/assets/sort-down.svg");
+      position: relative;
+      left: -5px;
+      top: 2px;
+    }
+  }
+
+  :global(.pi-sort-amount-up),
+  :global(.pi-sort-amount-up-alt) {
+    position: relative;
+    &::before {
+      content: url("../../common/assets/sort-up.svg");
+      position: relative;
+      left: -5px;
+      top: 2px;
+    }
+  }
+
+  :global(.pi-sort-alt),
+  :global(.pi-sort) {
+    position: relative;
+    &::before {
+      content: url("../../common/assets/sort.svg");
+      position: relative;
+      left: -5px;
+      top: 2px;
+    }
+  }
+
+  :global(tr th.p-filter-column) {
+    background: $body-muted;
+
+    input {
+      border: $border-width solid $border-color;
+      padding: 0.5rem ($spacer / 2);
+      padding-right: (18rem / 16);
+      height: 2.5rem;
+      font-size: $font-size-sm;
+      color: $text-muted;
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+  :global(.p-filter-column .p-checkbox-icon),
+  :global(.p-selection-column .p-checkbox-icon) {
+    background: url("../../common/assets/checkbox.svg");
+    width: 1rem;
+    height: 1rem;
+  }
+
+  :global(.p-datatable-tbody > tr > td.p-selection-column) {
+    padding-left: $spacer;
+  }
+
+  :global(.p-highlight .p-checkbox .p-checkbox-box) {
+    border: none;
+  }
+
+  :global(.p-datatable-tbody > tr.p-datatable-emptymessage:not(.p-highlight):hover) {
+    background: none;
+  }
+
+  :global(.p-sortable-column.p-highlight) {
+    color: $text-muted;
+  }
+
+  :global(.p-filter-column .p-multiselect-panel) {
+    // Fix filter overflow clipping
+    top: calc(100% + 2px) !important;
+  }
+}

@@ -1,0 +1,24 @@
+@import "theme";
+
+.search-control {
+  input {
+    border: 0;
+    outline: none;
+    &:hover,
+    &:active,
+    &:focus,
+    &.error {
+      border-bottom: $border;
+    }
+  }
+
+  svg {
+    cursor: pointer;
+  }
+  button {
+    padding: 0;
+    background: transparent;
+    border: 0;
+    outline: none;
+  }
+}

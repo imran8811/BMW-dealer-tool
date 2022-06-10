@@ -1,0 +1,10 @@
+@import "theme";
+
+@import "~bootstrap/scss/mixins/_breakpoints";
+
+.containerWrapper {
+  @include media-breakpoint-down(sm) {
+    padding-left: 3.127rem;
+    padding-right: 3.127rem;
+  }
+}

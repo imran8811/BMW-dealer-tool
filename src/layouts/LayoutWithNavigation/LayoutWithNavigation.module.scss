@@ -1,0 +1,40 @@
+@import "theme";
+
+.wrapper {
+  flex-grow: 1;
+  display: flex;
+  flex-flow: column;
+  // fix for order count appearing in next line on smaller screens
+  :global .p-menubar {
+    ul {
+      li:first-child {
+        min-width: max-content;
+      }
+    }
+  }
+}
+
+.background {
+  background: $body-muted;
+}
+
+.center {
+  display: flex;
+  flex-flow: row;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba($body-muted, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}

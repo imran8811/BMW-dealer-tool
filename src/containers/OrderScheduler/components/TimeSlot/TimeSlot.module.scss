@@ -1,0 +1,12 @@
+.item {
+  padding: 1px;
+  border-radius: 0.3rem;
+}
+
+.item.selected {
+  border: 1px solid black;
+}
+
+.item.selecting {
+  border: 1px dotted #969896;
+}

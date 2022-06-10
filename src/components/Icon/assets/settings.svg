@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-2{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px}
+    </style>
+  </defs>
+  <g id="Group_1406" transform="translate(-1823 -370) translate(1823 370)">
+    <path id="Rectangle_6372" fill="none" d="M0 0H24V24H0z"/>
+    <g id="more-vertical">
+      <circle id="Ellipse_48" cx="1" cy="1" r="1" class="cls-2" transform="translate(11 11)"/>
+      <circle id="Ellipse_49" cx="1" cy="1" r="1" class="cls-2" transform="translate(11 4)"/>
+      <circle id="Ellipse_50" cx="1" cy="1" r="1" class="cls-2" transform="translate(11 18)"/>
+    </g>
+  </g>
+</svg>

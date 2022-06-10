@@ -1,0 +1,12 @@
+@import "theme";
+@import "~bootstrap/scss/utilities/spacing";
+@import "~bootstrap/scss/forms";
+
+.error {
+  @extend .invalid-feedback;
+  @extend .mt-4;
+  display: block;
+  font-size: $font-size-sm;
+  line-height: 1.0625rem;
+  text-align: center;
+}

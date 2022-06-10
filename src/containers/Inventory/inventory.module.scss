@@ -1,0 +1,200 @@
+@import "theme";
+@import "~bootstrap/scss/mixins/_breakpoints";
+
+.clickable-link {
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+}
+.clickable-link:focus {
+  outline: none;
+}
+
+.row {
+  display: flex;
+  padding-top: 0.5rem;
+}
+
+.centered {
+  justify-content: center;
+}
+
+.cell {
+  flex: 1;
+  & + & {
+    margin-left: 10px;
+  }
+}
+
+.button {
+  width: auto;
+
+  & + & {
+    margin-left: 10px;
+  }
+  @include media-breakpoint-down(md) {
+    padding: 0.8125rem 2rem;
+  }
+}
+
+.title {
+  @include media-breakpoint-down(sm) {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+  }
+}
+.subHeading {
+  @include media-breakpoint-down(sm) {
+    font-size: 0.6875rem;
+  }
+}
+.auto_img_wrapper {
+  height: 12.5rem;
+  @include media-breakpoint-down(md) {
+    height: 100%;
+  }
+}
+.auto_img_wrapper img {
+  max-width: 24.875rem;
+  max-height: 12.6785rem;
+  float: right;
+  position: relative;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  @include media-breakpoint-down(md) {
+    position: relative;
+    max-width: 100%;
+  }
+}
+
+.dialog {
+  padding-top: 10px;
+  width: 90%;
+  min-height: 90%;
+  :global .p-dialog-header-icons {
+    display: none;
+  }
+  :global .p-dialog-title {
+    width: 100%;
+  }
+}
+
+.addonDialog {
+  min-height: unset;
+}
+
+.negative-price {
+  color: $primary;
+}
+
+.editor {
+  :global .pi-pencil {
+    padding-top: 6px;
+  }
+  :global .pi-pencil:before {
+    content: url("./components/edit.svg");
+  }
+  :global .pi-check {
+    content: url("./components/check.svg");
+  }
+  :global .pi-times {
+    content: url("./components/x.svg");
+  }
+}
+
+.hideEditor {
+  :global .p-row-editor-init {
+    display: none;
+  }
+}
+.selectClass {
+  height: 42px;
+  padding: 10px;
+  padding-right: 40px;
+  font-size: 0.875rem;
+  color: #6d6d78;
+}
+
+.noBackground {
+  background-image: none;
+}
+
+.confirmPadding {
+  padding: 10px 5px;
+  p {
+    font-weight: bold;
+  }
+}
+
+.toggleSwitchWrap {
+  min-width: 200px;
+}
+
+.desktopEditableBtn {
+  background: none;
+  border: none;
+}
+.desktopEditableBtn:focus {
+  outline: none;
+}
+.editableInput {
+  max-width: 100px;
+  max-height: 30px;
+}
+
+.pencil {
+  color: $grey;
+  margin-top: -5px;
+}
+.overlay {
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba($body-muted, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.wrapBtn {
+  position: relative;
+}
+
+.tryAgainBtn {
+  @include media-breakpoint-down(md) {
+    min-width: max-content;
+  }
+}
+
+.inventory-table {
+  :global .p-filter-column .p-multiselect {
+    .p-multiselect-label.p-placeholder {
+      color: #75777c;
+      font-weight: 500;
+      margin-top: -2px;
+    }
+  }
+}
+.editColumn {
+  position: absolute;
+  right: 0px;
+  z-index: 100;
+  background: inherit;
+}
+.association-list-table {
+  :global .p-datatable-thead tr th {
+    &:last-of-type {
+      display: none;
+    }
+  }
+}
+
+
+.bulkUpdateDialog{
+  :global .p-dialog-content{
+    max-width: 309px;
+  }
+}

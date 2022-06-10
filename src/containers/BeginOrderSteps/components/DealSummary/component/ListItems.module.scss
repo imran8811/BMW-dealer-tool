@@ -1,0 +1,52 @@
+@import "theme";
+@import "~bootstrap/scss/grid";
+
+.row {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  max-width: 100%;
+  margin: auto;
+  @include media-breakpoint-down(sm) {
+    flex-direction: column-reverse;
+  }
+}
+
+.button {
+  flex-grow: 1;
+  width: auto;
+  @include media-breakpoint-down(md) {
+    padding: 0.8125rem 1.9rem;
+  }
+  @include media-breakpoint-down(sm) {
+    margin-bottom: 10px;
+  }
+}
+
+.saveBtn {
+  @include media-breakpoint-up(sm) {
+    margin-left: 5px;
+  }
+}
+
+.cancelBtn {
+  @include media-breakpoint-up(sm) {
+    margin-right: 5px;
+  }
+}
+
+.paragraph {
+  max-width: fit-content;
+}
+
+.amount-update-dialog {
+  :global .p-dialog-header {
+    span.p-dialog-title {
+      min-width: 100%;
+      text-align: center;
+    }
+    .p-dialog-header-close {
+      right: -20px;
+    }
+  }
+}

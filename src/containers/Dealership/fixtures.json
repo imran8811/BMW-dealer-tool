@@ -1,0 +1,61 @@
+{
+  "dealerships": {
+    "pageData": [
+      {
+        "_id": "613f49b57fb6395acfca78a5",
+        "digitalRetailExcludedModels": [],
+        "digitalRetailExcludedVehicles": [],
+        "isActive": true,
+        "state": {
+          "code": "CA",
+          "displayName": "California"
+        },
+        "digitalRetailEnabled": true,
+        "name": "Heller, Gleichner and Schaden",
+        "dealerCode": "94795-36",
+        "address": "2570 24TH STREET, SACRAMENTO, CA, 95818",
+        "address2": "2570 24TH STREET, SACRAMENTO, CA, 95818",
+        "city": "SACRAMENTO",
+        "zipCode": "34343-2423",
+        "county": "USA",
+        "contactNo": "2342342342",
+        "email": "sampledealer@mini.com",
+        "digitalRetailWebsite": "www.testwebsite.com",
+        "pickupDateTimeSlots": [],
+        "deliveryDateTimeSlots": [],
+        "createdAt": "2021-09-13T12:53:09.412Z",
+        "updatedAt": "2021-09-13T12:53:09.412Z",
+        "__v": 0
+      },
+      {
+        "_id": "613ef1c75b23653032714ca5",
+        "digitalRetailExcludedModels": [],
+        "digitalRetailExcludedVehicles": [],
+        "isActive": false,
+        "state": {
+          "code": "CA",
+          "displayName": "California"
+        },
+        "digitalRetailEnabled": false,
+        "name": "Welch - Beer",
+        "dealerCode": "93320-13",
+        "address": "2570 24TH STREET, SACRAMENTO, CA, 95818",
+        "address2": "2570 24TH STREET, SACRAMENTO, CA, 95818",
+        "city": "SACRAMENTO",
+        "zipCode": "34343-2423",
+        "county": "USA",
+        "contactNo": "2342342342",
+        "email": "sampledealer@mini.com",
+        "digitalRetailWebsite": "www.testwebsite.com",
+        "pickupDateTimeSlots": [],
+        "deliveryDateTimeSlots": [],
+        "createdAt": "2021-09-13T06:37:59.885Z",
+        "updatedAt": "2021-09-13T06:37:59.885Z",
+        "__v": 0
+      }
+    ],
+    "total": 366,
+    "isLoading": false,
+    "size": 10
+  }
+}

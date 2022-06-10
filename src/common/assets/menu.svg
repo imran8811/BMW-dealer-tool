@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-2{fill:none;stroke:#6d6d78;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px}
+    </style>
+  </defs>
+  <g>
+    <path fill="none" d="M0 0h24v24H0z"/>
+    <g>
+      <path d="M0 0h18" class="cls-2" transform="translate(3 12)"/>
+      <path d="M0 0h18" class="cls-2" transform="translate(3 6)"/>
+      <path d="M0 0h18" class="cls-2" transform="translate(3 18)"/>
+    </g>
+  </g>
+</svg>

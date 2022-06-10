@@ -1,0 +1,98 @@
+@import "theme";
+
+@import "fonts";
+@import "~bootstrap/scss/root";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/images";
+// @import "~bootstrap/scss/code";
+@import "~bootstrap/scss/grid";
+// @import "~bootstrap/scss/tables";
+// @import "~bootstrap/scss/forms";
+@import "~bootstrap/scss/buttons";
+// @import "~bootstrap/scss/transitions";
+// @import "~bootstrap/scss/dropdown";
+// @import "~bootstrap/scss/button-group";
+// @import "~bootstrap/scss/input-group";
+// @import "~bootstrap/scss/custom-forms";
+// @import "~bootstrap/scss/nav";
+// @import "~bootstrap/scss/navbar";
+// @import "~bootstrap/scss/card";
+// @import "~bootstrap/scss/breadcrumb";
+// @import "~bootstrap/scss/pagination";
+// @import "~bootstrap/scss/badge";
+// @import "~bootstrap/scss/jumbotron";
+// @import "~bootstrap/scss/alert";
+// @import "~bootstrap/scss/progress";
+// @import "~bootstrap/scss/media";
+// @import "~bootstrap/scss/list-group";
+// @import "~bootstrap/scss/close";
+// @import "~bootstrap/scss/toasts";
+// @import "~bootstrap/scss/modal";
+// @import "~bootstrap/scss/tooltip";
+// @import "~bootstrap/scss/popover";
+// @import "~bootstrap/scss/carousel";
+// @import "~bootstrap/scss/spinners";
+@import "~bootstrap/scss/utilities";
+// @import "~bootstrap/scss/print";
+
+@import "primereact/primereact"; // FIXME: remove after development
+
+$themeColor: $primary; // for Swiper
+@import "~swiper/swiper.scss";
+@import "~swiper/components/navigation/navigation.scss";
+@import "~swiper/components/pagination/pagination.scss";
+
+// @import "~swiper/components/scrollbar/scrollbar.scss";
+
+html {
+  position: relative;
+  height: 100%;
+  overflow-y: scroll; // prevent horizontal layout jump between pages with and without scrollbar
+}
+
+/* stylelint-disable-next-line selector-pseudo-class-no-unknown */
+body,
+#__next {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 100%;
+  flex-grow: 1;
+}
+
+.p-column-filter {
+  width: 100%;
+  padding-right: 0 !important;
+}
+//dont remove it its require for react-selectable-fast
+.selectable-selectbox {
+  background: transparent;
+  border: 1px dashed grey;
+}
+
+.not-selectable {
+  pointer-events: none;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  display: none;
+}
+
+// theme related styles
+
+.motorrad {
+  .form-title {
+    text-transform: uppercase !important;
+  }
+
+  .section-subheading {
+    text-transform: uppercase !important;
+  }
+  h1,
+  h2,
+  h3 {
+    text-transform: uppercase !important;
+  }
+}

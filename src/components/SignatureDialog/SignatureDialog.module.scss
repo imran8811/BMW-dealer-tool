@@ -1,0 +1,80 @@
+@import "theme";
+@import "~bootstrap/scss/buttons";
+
+.frame {
+  display: block;
+  padding: 2rem 1rem;
+  width: 100%;
+  max-width: 788px;
+
+  @include media-breakpoint-up(lg) {
+    padding: 2rem 4.5rem;
+  }
+}
+
+.header {
+  font-size: 1.5rem;
+  text-align: center;
+  color: $dark;
+}
+
+.backBtn {
+  @extend .btn;
+  @extend .btn-link;
+  position: absolute;
+  left: 1rem;
+  top: 1.9rem;
+  padding: 0;
+  font-size: 1.375rem;
+  color: $text-muted;
+  transform: rotate(90deg);
+
+  @include media-breakpoint-up(lg) {
+    left: 2rem;
+  }
+}
+
+.main {
+  position: relative;
+  width: calc(100% + 2rem);
+  max-width: 788px;
+  height: 225px;
+  margin-left: -1rem;
+  margin-right: -1rem;
+
+  @include media-breakpoint-up(lg) {
+    width: calc(100% + 9rem);
+    margin-left: -4.5rem;
+    margin-right: -4.5rem;
+  }
+}
+
+.signature {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  // border: $border; // Debug -- show canvas size
+}
+
+.label {
+  position: absolute;
+  width: 70%;
+  padding-bottom: 2.375rem;
+  margin: 0 15%;
+  bottom: 0;
+  text-align: center;
+  border-top: $border-width solid $border-color-light;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

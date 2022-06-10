@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #6d6d78;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="Small_Chevron_Down" data-name="Small Chevron Down" transform="translate(13618 11634)">
+    <rect id="Rectangle_6352" data-name="Rectangle 6352" class="cls-1" width="24" height="24" transform="translate(-13618 -11634)"/>
+    <path id="Path_6695" data-name="Path 6695" class="cls-2" d="M7.354,8.646a.5.5,0,0,0-.707.707l5,5a.5.5,0,0,0,.707,0l5-5a.5.5,0,1,0-.707-.707L12,13.293Z" transform="translate(-13618 -11634)"/>
+  </g>
+</svg>

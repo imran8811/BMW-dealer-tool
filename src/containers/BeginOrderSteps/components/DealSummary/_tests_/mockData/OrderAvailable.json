@@ -1,0 +1,243 @@
+{
+  "order": {
+    "_id": "61446bcecb7aa744cb20fad7",
+    "dueAtSigning": 0,
+    "tradeInRemovalDetails": {
+      "reason": "string",
+      "removedByUserId": "string",
+      "removedByUserName": "string",
+      "removedAt": "string"
+    },
+    "referenceNumber": "",
+    "additionalMileageAmount": 0,
+    "vehicleHandOverMode": "Pickup",
+    "deliveryAddress": {
+      "address": " string",
+      "address2": " string",
+      "city": " string",
+      "state": " string",
+      "zipCode": " string"
+    },
+    "isDeliveryAddressSameAsParkingAddress": false,
+    "additionalFee": 0,
+    "proposedDateTimeSlots": [],
+    "feesUpdated": false,
+    "isSalePriceUpdated": false,
+    "isTradeInConfirmed": false,
+    "_disclaimerIds": [],
+    "paymentStatus": "Pending",
+    "isTradeInPageCrossed": true,
+    "vin": "WB10E230XM6D61554",
+    "productCode": "EasyRide",
+    "productDisplayName": "EasyRide",
+    "mileage": 0,
+    "odometer": 1,
+    "dealerCode": "42296-01",
+    "IsNew": true,
+    "pricing": {
+      "APR": 4.24,
+      "rebateAndPromotions": 0,
+      "taxes": {
+        "isUpFrontTax": false,
+        "tradeInTax": 0.0875,
+        "taxAllowedOnNegativeTradeIn": false,
+        "capitalCostReductionTax": 0.0875,
+        "rebateTax": 0.0875,
+        "salesTax": 0.0875,
+        "useTax": 0.0875,
+        "upperSlab": 0.06,
+        "lowerSlab": 0.0625,
+        "region": "CA"
+      },
+      "term": 24,
+      "downPayment": 2244,
+      "totalScore": 700,
+      "sellingPrice": 22440,
+      "monthlyPayment": 509.16,
+      "amountFinanced": 22830.16,
+      "adjustedCapitalizedCost": 22527.16,
+      "residualValue": 0
+    },
+    "fees": [
+      {
+        "amount": 150,
+        "chargeCode": "RegistrationFee",
+        "chargeDisplayName": "Registration Fee",
+        "isTaxable": true,
+        "tagName": "test"
+      },
+      {
+        "amount": 25,
+        "chargeCode": "SmogAbatementFee",
+        "chargeDisplayName": "Smog Abatement Fee",
+        "isTaxable": true,
+        "tagName": "test"
+      },
+      {
+        "amount": 18,
+        "chargeCode": "CaliforniaTIF",
+        "chargeDisplayName": "California TIF",
+        "isTaxable": true,
+        "tagName": "test"
+      }
+    ],
+    "_customerId": "6143510b02a27e273d710a5b",
+    "dealType": 7,
+    "state": "Available",
+    "orderId": 9443663,
+    "accessories": [],
+    "contractDocs": [],
+    "watermarkedContractDocs": [],
+    "fniProducts": [],
+    "createdAt": "2021-09-17T10:19:58.292Z",
+    "updatedAt": "2021-09-20T14:42:42.012Z",
+    "__v": 0,
+    "financedDate": "2021-09-20T12:28:14.973Z",
+    "orderPlaceAt": "2021-09-20T12:28:14.973Z",
+    "vehiclePrimaryUse": "PersonalFamilyOrHousehold",
+    "odoStatement": {
+      "OdoReflectsVehicleMileage": true,
+      "OdoReflectsExcMechLimits": false,
+      "OdoNotActualVehicleMileage": false
+    },
+    "taxes": [
+      { "taxCode": "Sales/UseTax", "taxDisplayName": "Sales/Use Tax", "amount": 0 },
+      { "taxCode": "TaxOnCapitalizedCostReduction", "taxDisplayName": "Tax on Capitalized Cost Reduction", "amount": 0 }
+    ],
+    "fniProductsSum": 0
+  },
+  "customer": {
+    "emailVerificationStatus": "Verified",
+    "phoneNumberVerificationStatus": "Unverified",
+    "drivingLicenseDetailState": "AddressesConfirmed",
+    "isParkingSameAsMailing": true,
+    "acceptedDisclaimerDealerCodes": ["42296-01"],
+    "isDataMasked": false,
+    "_id": "6143510b02a27ea4da710a5c",
+    "firstName": "Tax",
+    "lastName": "Test",
+    "email": "koxehiw463@ppp998.com",
+    "isCCPACompliant": true,
+    "zipCode": "93013",
+    "preferredContactMethod": "Email",
+    "phoneNumber": "",
+    "lastActiveVIN": "WB10L0300M6E42766",
+    "userID": "6143510b02a27e273d710a5b",
+    "phoneNumberVerification": {
+      "_id": "6143510b02a27e99cd710a5d",
+      "pinCode": 2603,
+      "resendPinAttemptsLeft": 2,
+      "incorrectPinAttemptsLeft": 5,
+      "pinCreatedOn": "2021-09-16T14:13:31.883Z",
+      "pinExpiredOn": "2021-09-16T14:14:31.883Z"
+    },
+    "emailVerification": null,
+    "joiningDate": "2021-09-16T14:13:31.963Z",
+    "createdAt": "2021-09-16T14:13:31.971Z",
+    "updatedAt": "2021-09-17T10:10:59.717Z",
+    "__v": 0,
+    "drivingLicenseDetails": {
+      "licenseDocs": {
+        "back": "529259ec-f0df-4d25-8f63-e8a7253f0b42.jpg",
+        "front": "7c8ad0e1-2035-4ee9-8045-6ea3d425d7a5.jpg",
+        "licenseDocsFrontUrl": "https://mdevcusst01.blob.core.windows.net/motorrad-private/license/7c8ad0e1-2035-4ee9-8045-6ea3d425d7a5.jpg?st=2021-09-20T14%3A42%3A39Z&se=2021-09-20T15%3A43%3A39Z&sp=r&sv=2018-03-28&sr=b&sig=7hIp3ky92b73u4qy84QP1cugUxA%2BuGHHPhJ8O1S04o0%3D",
+        "licenseDocsBackUrl": "https://mdevcusst01.blob.core.windows.net/motorrad-private/license/529259ec-f0df-4d25-8f63-e8a7253f0b42.jpg?st=2021-09-20T14%3A42%3A39Z&se=2021-09-20T15%3A43%3A39Z&sp=r&sv=2018-03-28&sr=b&sig=5y4hSlPRb%2FSLwoTUGkuowwyy6Okh6cGPh3vydr4L9sg%3D"
+      },
+      "licenseDocsCropped": {
+        "back": "a94e444a-6055-4992-9884-d68c6ed4d53e.jpg",
+        "licenseDocsCroppedBackUrl": "https://mdevcusst01.blob.core.windows.net/motorrad-private/license/a94e444a-6055-4992-9884-d68c6ed4d53e.jpg?st=2021-09-20T14%3A42%3A39Z&se=2021-09-20T15%3A43%3A39Z&sp=r&sv=2018-03-28&sr=b&sig=a65uVpZrJZv2Gx3dIw38RYP4SgKSWtsymLLFKqG91RU%3D"
+      },
+      "firstName": "ALEXANDER J",
+      "lastName": "SAMPLE",
+      "licenseNo": "I1234562",
+      "issuingState": "CA",
+      "expiryDate": "2022-08-03T19:00:00.000Z",
+      "dateOfBirth": "1977-08-31T00:00:00.000Z",
+      "updatedAt": "2021-09-17T10:10:52.944Z",
+      "createdAt": "2021-09-17T10:10:52.944Z"
+    },
+    "mailingAddress": {
+      "streetAddress": "2570 24TH STREET",
+      "city": "SACRAMENTO",
+      "state": "CA",
+      "zipCode": "95822",
+      "apartmentOrSuite": "",
+      "updatedAt": "2021-09-17T10:10:59.717Z",
+      "createdAt": "2021-09-17T10:10:59.717Z"
+    },
+    "parkingAddress": {
+      "streetAddress": "2570 24TH STREET",
+      "city": "SACRAMENTO",
+      "state": "CA",
+      "zipCode": "95822",
+      "apartmentOrSuite": "",
+      "updatedAt": "2021-09-17T10:10:59.717Z",
+      "createdAt": "2021-09-17T10:10:59.717Z"
+    }
+  },
+  "vehicle": {
+    "_id": "613923ea4f89a9f111bc132c",
+    "optionalDescription": "",
+    "generalConfigurations": {},
+    "dealerCode": "42296-01",
+    "dealerId": "42296-01",
+    "dealerLocationId": "01",
+    "vin": "WB10E230XM6D61554",
+    "makeId": 3,
+    "doingBusinessAs": "BMW Motorcycles of Burbank",
+    "year": 2021,
+    "model": "S 1000 RR",
+    "modelCode": "21K6",
+    "colorCode": "ND2",
+    "colorDescription": "Black Storm Metallic",
+    "vehicleAvailableStatus": 1,
+    "internetPrice": 22440,
+    "msrp": 22440,
+    "photoUrls": [
+      "https://cosy.bmwgroup.com/h5nbc/cosySec?COSY-EU-100-7331c9Nv2Z7d5y07eRUQlPw7CcVxEaZMjbuzHVPRdgSht9oNx2YI3w9cEiNHC6S4rxlcqgv2Z7dyABNZvT1mvhspE8xbZ35BjkeTjHq0MvUi56l42aKDSEzPVjnIBQ53OM4BLayVIblXBnvzTomvhvS2riao7slGdp4HRM10s9QiFJxVVA0oZHITWBzOALcJvleYagOyKTGsIfRUgCBl90vlxbUE2soAGWWhbNp0LO9meqhkiAygRUjmqnHOCUxZ67m5JgEbWVw178TUNhSD%25V1PlbkqduuzVMshnmQR3azD0q57BfXRaYAm8125rxRtO7PVpb4Wxfg1MziIFeWSUVDa7lIjedbzYR1wv6jQhatxK0Gw6ZqRfWBt9%25wcmxSeY2ou%25K7WdjtgL3uB1eQ6fwyX32VjZwSCCrXpz6c%25dbE4riawKuQkNF4HR%25B3ZvkIFJxu2X%25snvITW3pru15GvleXi43p89GsjrHNpPPo9064JkiDMLoAwFTn5JDyLO%25Il58YYCyguvs8PxtE6lcJiacUsgXA9HhMcdFp"
+    ],
+    "mileage": 1,
+    "make": "BMW Motorrad",
+    "type": 2,
+    "state": "CA",
+    "email": "mike@bmwburbank.com",
+    "address": "2913 N Ontario St  ",
+    "city": "Burbank",
+    "zip": "91504-2017",
+    "phoneNumber": "8184462450",
+    "capacity": "999 cc",
+    "horsePower": "205 hp at 13000 rpm",
+    "fuelType": "Premium Unleaded",
+    "torque": "83 lb-ft @ 11000 rpm",
+    "packageCodeOptionCode": [
+      { "code": "0228", "options": ["0223", "0224", "0228", "0235", "05AB", "0519", "0538", "079F", "053B", "0530"] }
+    ],
+    "packagesAndOptionDescription": [
+      {
+        "code": "Race Package",
+        "options": [
+          "DDC (Dynamic Damping Control)",
+          "Ride Modes Pro",
+          "Race Package",
+          "Dynamic Package",
+          "Brake Light US",
+          "Heated Grips",
+          "Cruise Control",
+          "M Forged Wheels",
+          "M Battery",
+          "TPM (Tire Pressure Monitor)"
+        ]
+      }
+    ],
+    "isDeleted": false,
+    "isUpdated": false,
+    "containerFileName": "MOTORRAD_MSRP_09-08-2021.txt",
+    "createdAt": "2021-09-08T20:57:53.000Z",
+    "updatedAt": "2021-09-20T12:28:15.925Z",
+    "makeModel": "Motorrad S 1000 RR",
+    "publish": true,
+    "status": "InInquiry",
+    "loadedOn": "2021-09-08T20:57:53.000Z",
+    "dailyInventoryUpdate": true
+  }
+}

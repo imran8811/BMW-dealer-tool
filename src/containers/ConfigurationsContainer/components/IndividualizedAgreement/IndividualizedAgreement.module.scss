@@ -1,0 +1,92 @@
+@import "theme";
+.individualizedAgreement {
+  position: relative;
+  .agreement {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: normal;
+    font-style: normal;
+    margin-top: 24px;
+    color: $text-muted;
+    display: flex;
+    align-items: center;
+    p {
+      text-align: justify;
+    }
+    .iconBtns {
+      border-right: 1px solid $light-grey;
+      border-left: 1px solid $light-grey;
+      span {
+        padding: 0 13px;
+        cursor: pointer;
+      }
+    }
+    .switch {
+      @include media-breakpoint-down(sm) {
+        margin-top: 10px;
+      }
+    }
+  }
+  :global hr.solid {
+    width: 100%;
+    border-bottom: $border-size $border-color;
+    margin: 0px 0px;
+  }
+}
+.overlay {
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba($body-muted, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.form {
+  :global .p-dialog-header {
+    span.p-dialog-title {
+      min-width: 100%;
+      text-align: center;
+    }
+    .p-dialog-header-close {
+      right: -20px;
+    }
+  }
+  .row {
+    @extend .row;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    @include media-breakpoint-down(sm) {
+      flex-direction: column-reverse;
+    }
+  }
+
+  .button {
+    flex-grow: 1;
+    width: auto;
+    @include media-breakpoint-down(md) {
+      padding: 0.8125rem 1.9rem;
+    }
+    @include media-breakpoint-down(sm) {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+
+  .saveBtn {
+    @include media-breakpoint-up(md) {
+      margin-left: 5px;
+    }
+  }
+
+  .cancelBtn {
+    @include media-breakpoint-up(md) {
+      margin-right: 5px;
+    }
+  }
+}

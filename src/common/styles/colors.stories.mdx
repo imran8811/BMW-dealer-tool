@@ -1,0 +1,31 @@
+import {
+  ColorPalette,
+  ColorItem,
+  Meta,
+} from '@storybook/addon-docs/blocks';
+
+<Meta
+  title="Styleguide/Colors"
+/>
+
+
+## Color palette
+`dev/src/common/styles/_theme.scss` and docs in `dev/src/common/styles/colors.stories.mdx`
+<br />
+
+<ColorPalette>
+  <ColorItem title="$primary" subtitle="rouge" colors={['#ac2430']} />
+  <ColorItem
+    title="$body-color, $text-muted"
+    subtitle="black, battleship-gray"
+    colors={['#000000', '#6d6d78']}
+  />
+  <ColorItem title="$body-bg, $body-muted"
+    subtitle="white, marble-white"
+    colors={['#ffffff', '#f8f8f8']} />
+  <ColorItem
+    title="$border-color"
+    subtitle="spun pearl"
+    colors={['#a1a1aa']}
+  />
+</ColorPalette>

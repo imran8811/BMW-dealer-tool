@@ -1,0 +1,56 @@
+@import "theme";
+@import "~bootstrap/scss/buttons";
+@import "~bootstrap/scss/mixins/_breakpoints";
+
+.headerLeftCarImage {
+  max-width: 12.8125rem;
+  width: 100%;
+}
+.auto_info {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  span {
+    color: $text-muted;
+    width: 6rem;
+    display: inline-block;
+  }
+}
+
+.btn_link {
+  border-color: $transparent;
+  background-color: $transparent !important;
+  color: $text-muted;
+  padding: 0;
+  margin: 0;
+  box-shadow: none;
+  &:hover {
+    outline: none;
+    border-color: $transparent !important;
+    text-decoration: underline;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+.btn_view {
+  @extend .btn_link;
+  color: $primary;
+  text-decoration: underline;
+  @include media-breakpoint-down(sm) {
+    font-size: 0.875rem;
+  }
+}
+
+.fs14_sm {
+  font-size: inherit;
+  @include media-breakpoint-down(sm) {
+    font-size: 0.875rem;
+    padding-top: 1rem;
+  }
+}
+.fs18_sm {
+  @include media-breakpoint-down(sm) {
+    font-size: 1.125rem;
+    padding-top: 1rem;
+  }
+}

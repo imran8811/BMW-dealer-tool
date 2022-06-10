@@ -1,0 +1,19 @@
+@import "theme";
+
+.dealership {
+  color: $text-muted;
+  border: none;
+  background: transparent;
+
+  :global .p-dropdown-panel {
+    width: auto;
+  }
+
+  :global .p-dropdown-label.p-inputtext {
+    margin-left: 0;
+  }
+}
+
+.dropdownWrapper {
+  display: inline-block;
+}

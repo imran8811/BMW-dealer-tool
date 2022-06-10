@@ -1,0 +1,41 @@
+@import "theme";
+@import "~bootstrap/scss/utilities/spacing";
+@import "~bootstrap/scss/forms";
+@import "~bootstrap/scss/custom-forms";
+
+.radiobox {
+  @extend .custom-control;
+  @extend .custom-checkbox;
+
+  input {
+    @extend .custom-control-input;
+  }
+}
+
+.label {
+  @extend .custom-control-label;
+  color: $text-muted;
+  font-size: $font-size-sm;
+  line-height: 1.0625rem;
+  padding-top: 0.1875rem;
+  &:before,
+  &:after {
+    top: 0;
+  }
+  b {
+    color: $black;
+  }
+}
+
+.error {
+  @extend .invalid-feedback;
+  display: block;
+  font-size: $font-size-sm;
+  line-height: 1.0625rem;
+  margin-top: 0;
+  margin-bottom: $spacer * 0.2;
+}
+
+.radioWrap {
+  padding: 1px 5px 1px 0px;
+}

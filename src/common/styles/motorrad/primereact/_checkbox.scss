@@ -1,0 +1,62 @@
+/* stylelint-disable no-descending-specificity, no-duplicate-selectors */
+.p-checkbox {
+  display: inline-flex;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: bottom;
+}
+
+.p-checkbox-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-checkbox {
+  width: (20rem / 16);
+  height: (20rem / 16);
+
+  .p-checkbox-box {
+    border: 2px solid $text-muted;
+    background: $white;
+    width: (20rem / 16);
+    height: (20rem / 16);
+    color: $text-muted;
+    border-radius: $border-radius-sm;
+    transition: background-color 0.15s, border-color 0.15s, box-shadow 0.15s;
+
+    .p-checkbox-icon {
+      transition-duration: 0.15s;
+      color: $white;
+      font-size: 14px;
+    }
+
+    &:not(.p-disabled) {
+      &:hover {
+        border-color: $text-muted;
+      }
+
+      &.p-focus {
+        outline: 0 none;
+        outline-offset: 0;
+        // box-shadow: 0 0 0 0.2rem rgba(172, 36, 48, 1);
+        border-color: $primary;
+      }
+    }
+
+    &.p-highlight {
+      border-color: $primary;
+      background: $primary;
+
+      &:not(.p-disabled):hover {
+        border-color: $primary;
+        background: $primary;
+        color: $white;
+      }
+    }
+  }
+
+  &.p-error > .p-checkbox-box, &.p-invalid > .p-checkbox-box {
+    border-color: #dc3545;
+  }
+}

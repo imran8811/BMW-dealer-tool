@@ -1,0 +1,35 @@
+@import "theme";
+@import "~bootstrap/scss/grid";
+
+.container {
+  @extend .container;
+}
+
+.cell {
+  font-size: 14px;
+}
+
+.text {
+  margin: 0;
+  color: $black
+}
+
+.muted {
+  color: $text-muted;
+
+  img {
+    opacity: 0.8;
+  }
+}
+
+.statusCell {
+  display: flex;
+  align-items: center;
+}
+
+.icon-wrapper {
+  padding-right: 10px;
+  margin-right: 10px;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+

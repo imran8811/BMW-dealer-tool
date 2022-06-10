@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="47.333" height="45.122" viewBox="0 0 47.333 45.122">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px}
+        </style>
+    </defs>
+    <g id="Group_1601" transform="translate(1 1)" stroke="currentColor">
+        <path id="Path_6979" fill="none" fill-rule="evenodd" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" d="M386.383 626.986a8.269 8.269 0 0 1-8.165 8.366h-19.053a8.269 8.269 0 0 1-8.165-8.366v-25.9a1.378 1.378 0 0 1 1.362-1.395h32.662a1.375 1.375 0 0 1 1.359 1.392z" transform="translate(-351 -594.158)"/>
+        <path id="Path_6980" d="M351 607.058h35.382" class="cls-2" transform="translate(-351 -590.472)"/>
+        <path id="Path_6981" d="M358.762 606.49a2.587 2.587 0 0 1-2.6-2.556v-5.379a2.6 2.6 0 0 1 5.2 0" class="cls-2" transform="translate(-348.421 -596)"/>
+        <path id="Path_6982" d="M369.082 606.49a2.587 2.587 0 0 1-2.6-2.556v-5.379a2.6 2.6 0 0 1 5.2 0" class="cls-2" transform="translate(-343.262 -596)"/>
+        <circle id="Ellipse_55" cx="9.951" cy="9.951" r="9.951" fill="#fff" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" transform="translate(25.431 23.219)"/>
+        <path id="Path_6983" d="M374.221 614.061v6.808h6.808" class="cls-2" transform="translate(-339.392 -586.971)"/>
+    </g>
+</svg>

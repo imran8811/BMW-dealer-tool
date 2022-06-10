@@ -1,0 +1,104 @@
+@import "theme";
+@import "~bootstrap/scss/utilities/spacing";
+@import "~bootstrap/scss/utilities/float";
+
+.dayDate {
+  background-color: $body-muted;
+  text-align: center;
+  padding: 10px 20px;
+}
+.schedulerDay {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0.875rem;
+  line-height: 1.187rem;
+  transform: rotate(-90deg);
+  text-transform: uppercase;
+  border-radius: 8px;
+}
+.singleDate {
+  margin-bottom: 20px;
+
+  &.disabled {
+    opacity: 0.5;
+  }
+}
+.statesList {
+  margin: 0;
+  padding: 30px 0 0 0;
+  list-style: none;
+  text-align: right;
+  li {
+    display: inline-block;
+    vertical-align: baseline;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+  }
+}
+.schedulerWrap {
+  max-height: 500px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  h3 {
+    position: sticky;
+    background: white;
+    top: 0;
+    z-index: 1;
+  }
+}
+.statusScheduled {
+  background-color: rgba(172, 36, 48, 0.1);
+  color: $primary;
+}
+.statusOffered {
+  background-color: $body-muted;
+}
+.statusNotOffered {
+  background-color: $white;
+}
+.statusSelected {
+  border: solid $border-size $black;
+}
+.schedulerDate {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 2rem;
+  line-height: 2.312rem;
+  color: $primary;
+}
+.timeSlots {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  li {
+    display: inline-block;
+    vertical-align: middle;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px 6px;
+    margin: 0 5px 5px 0;
+    text-align: center;
+    cursor: pointer;
+    &.disabled {
+      opacity: 0.5;
+    }
+  }
+}
+.timeSlotsDelivery {
+  justify-content: space-between;
+  li {
+    flex-grow: 1;
+  }
+}
+.pullRight {
+  margin: 20px 0 0 0;
+  @extend .float-right;
+}
+
+.main {
+  position: relative;
+}

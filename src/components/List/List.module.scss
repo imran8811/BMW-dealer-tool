@@ -1,0 +1,11 @@
+@import "theme";
+@import "~bootstrap/scss/grid";
+
+.container {
+  @extend .container;
+
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  padding: 0;
+}

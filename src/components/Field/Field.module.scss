@@ -1,0 +1,77 @@
+@import "theme";
+@import "~bootstrap/scss/forms";
+@import "~bootstrap/scss/buttons";
+
+.formGroup {
+  @extend .form-group;
+
+  width: 100%;
+  color: $text-muted;
+}
+
+.label {
+  display: block;
+  width: 100%;
+  margin: 0;
+  color: $body-color;
+
+  .labelSpan {
+    display: inline-block;
+    margin-bottom: $spacer / 4;
+    text-transform: uppercase;
+    font-weight: $font-weight-bold;
+    font-size: $font-size-sm;
+  }
+
+  &--invalid {
+    color: $danger;
+  }
+}
+
+.description {
+  @extend .form-text;
+
+  display: block;
+  font-size: $font-size-sm;
+  color: $text-muted;
+  line-height: 1.0625rem;
+  margin-top: $spacer / 2;
+}
+
+.error {
+  @extend .description;
+  color: $danger;
+}
+
+.smallWrapper {
+  margin-bottom: 0;
+}
+
+.smallInput {
+  height: 2.5rem;
+}
+
+.fieldWrapper {
+  position: relative;
+}
+
+.clearButton {
+  @extend .btn;
+  @extend .btn-link;
+  padding: 0 (12rem / 16);
+  display: block;
+  position: absolute;
+  height: 100%;
+  right: 0;
+  top: 0;
+}
+
+.optional {
+  width: 59px;
+  height: 16px;
+  margin: 0 11px 6px 5px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.43;
+  color: $grey;
+}

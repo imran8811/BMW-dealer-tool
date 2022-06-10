@@ -1,0 +1,84 @@
+@import "theme";
+@import "~bootstrap/scss/grid";
+
+.featuresList {
+  width: 100%;
+  position: relative;
+}
+
+.content {
+  padding: 0;
+  padding-left: 0.625rem;
+  width: 100%;
+  font-size: $font-size-sm;
+}
+
+.featuresList :global(.p-accordion-content) {
+  padding: 0 !important;
+  border: 0 !important;
+}
+.featuresList :global(.p-accordion-header) {
+  & :hover {
+    background: none;
+  }
+}
+
+.featuresList :global(.p-accordion-header) :global(.p-highlight) {
+  background: none;
+}
+
+.featuresList :global(.p-accordion-header) :global(.p-accordion-header-link) {
+  width: auto;
+  display: flex;
+  padding: 0 !important;
+  background-color: transparent !important;
+  border: 0 !important;
+
+  & :global(.p-accordion-header-text) {
+    color: $black;
+    margin-bottom: 10px;
+    font-weight: 400;
+  }
+  & :global(.p-accordion-toggle-icon) {
+    order: 2;
+    position: relative;
+    top: -2px;
+    right: -5px;
+
+    &::before {
+      position: relative;
+      content: url("../../common/assets/chevron-gray.svg");
+      display: flex;
+      transform: rotate(0);
+      transition: all 0.3s;
+    }
+  }
+
+  & :global(.pi-chevron-down)::before {
+    transform: rotate(-180deg);
+  }
+
+  &:hover {
+    text-decoration: none;
+    background: none;
+  }
+  &:focus,
+  &:active {
+    border: 0 solid transparent !important;
+    outline: 0 none !important;
+    box-shadow: 0 0 0 transparent !important;
+  }
+  &::after {
+    display: inline-block;
+    margin-left: 0.719rem;
+  }
+}
+
+.headerPrice {
+  position: absolute;
+  min-width: 6rem;
+  right: 0;
+  top: 0;
+  font-size: 1rem;
+  font-weight: $font-weight-bold;
+}

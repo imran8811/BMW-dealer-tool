@@ -1,0 +1,23 @@
+@import "theme";
+@import "~bootstrap/scss/grid";
+
+.container {
+  @extend .container;
+  background: $white;
+  border-radius: $border-radius;
+  padding: $spacer;
+  
+  @include media-breakpoint-up(lg) {
+    padding: $spacer * 3;
+  }
+}
+
+.title {
+  font-size: (24rem / 16);
+  color: $black;
+  margin-bottom: 30px;
+  
+  @include media-breakpoint-up(lg) {
+    font-size: (32rem / 16);
+  }
+}

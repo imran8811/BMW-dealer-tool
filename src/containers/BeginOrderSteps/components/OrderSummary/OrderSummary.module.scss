@@ -1,0 +1,12 @@
+@import "theme";
+@import "~bootstrap/scss/buttons";
+@import "~bootstrap/scss/mixins/_breakpoints";
+
+.btnPrimary {
+  @extend .btn;
+  @extend .btn-primary;
+
+  @include media-breakpoint-down(sm) {
+    width: 100%;
+  }
+}

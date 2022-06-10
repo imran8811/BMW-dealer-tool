@@ -1,0 +1,30 @@
+@import "theme";
+
+// equivalent to mb-5 etc.
+@mixin bs-margin($side, $level) {
+  margin-#{side}: map-get($spacers, $level);
+}
+
+.text {
+  // we need to do this manually, mb-4 adds "!important" so .inline won't work.
+  @include bs-margin(bottom, 4);
+  color: $text-muted;
+
+  strong {
+    color: $body-color;
+  }
+
+  a {
+    color: $black;
+    text-decoration: underline;
+    font-weight: inherit;
+
+    &:hover {
+      color: $primary;
+    }
+  }
+}
+
+.text.inline {
+  margin-bottom: 0;
+}

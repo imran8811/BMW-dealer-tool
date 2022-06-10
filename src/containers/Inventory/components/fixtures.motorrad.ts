@@ -1,0 +1,36 @@
+export const datafixObj = {
+  'C 400 GT': 'C400GT',
+  'F 750 GS US': 'F750GSUS',
+  'F 850 GS ADVENTURE': 'F850GSADVENTURE',
+  'F 850 GS US': 'F850GSUS',
+  'F 900 R': 'F900R',
+  'F 900 XR': 'F900XR',
+  'G 310 GS': 'G310GS',
+  'G 310 R': 'G310R',
+  'G310R US': 'G310RUS',
+  'K 1600 B': 'K1600B',
+  'K 1600 GT US': 'K1600GTUS',
+  'K 1600 GTL US': 'K1600GTLUS',
+  'M 1000 RR': 'M1000RR',
+  'R 1200 RS US': 'R1200RSUS',
+  'R 1250 GS': 'R1250GS',
+  'R 1250 GS ADVENTURE': 'R1250GSADVENTURE',
+  'R 1250 R': 'R1250R',
+  'R 1250 RS': 'R1250RS',
+  'R 1250 RT': 'R1250RT',
+  'R 18': 'R18',
+  'R 18 CLASSIC': 'R18CLASSIC',
+  'R NINET': 'RNINET',
+  'R NINET PURE': 'RNINETPURE',
+  'R NINET SCRAMBLER': 'RNINETSCRAMBLER',
+  'R NINET URBAN G/S': 'RNINETURBANG/S',
+  'S 1000 R': 'S1000R',
+  'S 1000 R US': 'S1000RUS',
+  'S 1000 RR': 'S1000RR',
+  'S 1000 XR': 'S1000XR',
+  'S1000XR US': 'S1000XRUS',
+}
+
+const fixtures = { datafixObj }
+
+export default fixtures

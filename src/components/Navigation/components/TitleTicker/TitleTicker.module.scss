@@ -1,0 +1,26 @@
+@import "theme";
+
+.tickerWrapper {
+  background-color: $black;
+}
+
+.headerTicker {
+  color: $light-grey;
+  padding: 0.46rem 0;
+  font-size: $font-size-sm;
+
+  .support {
+
+    .contact {
+      color: $white;
+    }
+  }
+
+  .timing {
+    text-align: right;
+
+    .weekend {
+      margin-left: 2rem;
+    }
+  }
+}

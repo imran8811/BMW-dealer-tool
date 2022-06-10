@@ -1,0 +1,401 @@
+{
+  "order": {
+    "_id": "5f85c116b9f17744148a5b3c",
+    "vehicleHandOverMode": "delivery",
+    "additionalFee": 200,
+    "state": "Available",
+    "vin": "WMWLN5C59H2E32431",
+    "productCode": "Lease",
+    "productDisplayName": "Lease",
+    "termInMonths": 24,
+    "amountPerMonth": 500,
+    "downPaymentAmount": 1500,
+    "dueDate": "2019-10-29T12:00:00.000Z",
+    "taxAmount": 300,
+    "mileage": 10000,
+    "additionalMileageAmount": 25,
+    "amountDueAtSigning": 2100,
+    "pricing": {
+      "term": 100,
+      "downPayment": 100,
+      "dueDate": "2019-10-29T12:00:00.000Z",
+      "upfrontTaxesAndFees": 100,
+      "grossCapitalizedCost": 100,
+      "capitalizedCostReduction": 100,
+      "adjustedCapitalizedCost": 100,
+      "monthlyLeaseCharge": 100,
+      "monthlyDeprecation": 100,
+      "baseMonthlyPayment": 100,
+      "monthlySalesUseTax": 100,
+      "monthlyPayment": 100,
+      "totalOfMonthlyPayments": 100,
+      "tradeInBalance": 100,
+      "dueAtSigning": 100,
+      "amountFinanced": 100,
+      "creditScore": 100,
+      "tireAndWheel": 1000,
+      "emp": 1200,
+      "keyProtection": 700,
+      "rebates": 1000,
+      "tradeIn": 0,
+      "securityDeposit": 100
+    },
+    "_customerId": "5f7dcc0c1e3463b88b51000c",
+    "createdAt": "2020-10-13T15:00:38.795Z",
+    "updatedAt": "2020-10-14T10:40:46.417Z",
+    "__v": 0,
+    "fees": [
+      {
+        "chargeCode": "FirstFees",
+        "chargeDisplayName": "First Fee",
+        "amount": 100
+      },
+      {
+        "chargeCode": "SecondFees",
+        "chargeDisplayName": "Second Fee",
+        "amount": 200
+      },
+      {
+        "chargeCode": "ThirdFees",
+        "chargeDisplayName": "Third Fee",
+        "amount": 300
+      }
+    ],
+    "taxes": [
+      {
+        "taxCode": "FirstTax",
+        "taxDisplayName": "First Tax",
+        "amount": 10
+      },
+      {
+        "taxCode": "SecondTax",
+        "taxDisplayName": "Second Tax",
+        "amount": 20
+      },
+      {
+        "taxCode": "ThirdTax",
+        "taxDisplayName": "Third Tax",
+        "amount": 30
+      }
+    ]
+  },
+
+  "customer": {
+    "_id": "5f7dcc0c1e346307b751000d",
+    "emailVerificationStatus": "Unverified",
+    "phoneNumberVerificationStatus": "Unverified",
+    "vehicleHandOverMode": "pickup",
+    "email": "mustafa.ali@netsoltech.com",
+    "deliveryScheduled": false,
+    "licenseNo": 5646518,
+    "licenseImg": "https://www.wamc.org/sites/wamc/files/201907/dl_hilights_text_2.png",
+    "firstName": "Mustafa",
+    "lastName": "Ali",
+    "phoneNumber": "+92333000000",
+    "address": "6131 Stewart Ave",
+    "lat": 38.556935,
+    "lng": -121.483148,
+    "userID": "5f7dcc0c1e3463b88b51000c",
+    "phoneNumberVerification": {
+      "_id": "5f7dcc0c1e3463303c51000e",
+      "pinCode": 2271,
+      "resendPinAttemptsLeft": 2,
+      "incorrectPinAttemptsLeft": 5,
+      "pinCreatedOn": "2020-10-07T14:09:16.720Z",
+      "pinExpiredOn": "2020-10-07T14:10:16.720Z"
+    },
+    "emailVerification": {
+      "_id": "5f7dcc0c1e34636d5a51000f",
+      "token": "9f46dbac-7a60-4840-af1f-57f77f77a177",
+      "maxAttemptsAllowed": 1,
+      "createdOn": "2020-10-07T14:09:16.722Z",
+      "isTokenExpired": false,
+      "expiredInMinutes": 120,
+      "verifyUrl": "https://fair-dev.otoz.biz/email-verification?userId=5f7dcc0c1e3463b88b51000c&token=9f46dbac-7a60-4840-af1f-57f77f77a177"
+    },
+    "joiningDate": "2020-10-07T14:09:16.819Z",
+    "createdAt": "2020-10-07T14:09:16.822Z",
+    "updatedAt": "2020-10-07T14:09:16.822Z",
+    "__v": 0
+  },
+  "vehicleAppointment": {
+    "date": "Wed Mar 12 2021 13:00:00 GMT+0500 (Pakistan Standard Time)",
+    "time": "Wed Mar 12 2021 13:00:00 GMT+0500 (Pakistan Standard Time)"
+  },
+  "vehicle": {
+    "_id": "5f82ee2d991faf9f0c061c3e",
+    "dealerCode": "40304",
+    "vin": "WMWLN5C59H2E32431",
+    "stockNumber": "H2E32544",
+    "year": 2017,
+    "make": "MINI",
+    "model": "Cooper Clubman",
+    "vehicleDisplayName": "2017 MINI Cooper Clubman",
+    "bodyStyle": "4d Sport Utility",
+    "cd": 123456,
+    "transmissionType": "A",
+    "internetPrice": 30800,
+    "mileage": 2651,
+    "typeName": "New",
+    "trimDescription": "Coupe",
+    "msrp": 35300,
+    "doingBusinessAs": "Mini of Ann Arbor",
+    "addressTitle": null,
+    "address": "6131 Stewart Ave",
+    "city": "Cincinnati",
+    "state": "OH",
+    "zip": 45227,
+    "phoneNumber": 5132718700,
+    "fax": 5132713587,
+    "email": "Miniannarbor@miniusa.com",
+    "contactName": "Joan Allison",
+    "dealerURL": "http://www.cincinnatimini.com",
+    "price2": 0,
+    "exteriorColorDescription": "Pure Burgundy Metallic",
+    "interiorColorDescription": "Black Leather",
+    "vehicleComments": "2016 MINI Cooper Clubman Pure Burgundy Metallic I3Heated Front Seats, MINI Yours Pure Burgundy Illuminated Int. Style, Panoramic Moonroof, Rear Fog Lights, Rear Park Distance Control, Satellite Radio w/1 Year Subscription",
+    "type": 1,
+    "bodyType": "Station Wagon",
+    "transmissionSpeed": 6,
+    "transmissionDescription": "Automatic",
+    "engineCylinders": 3,
+    "doors": 2,
+    "engineDescription": "1.6L I4 DOHC 16V",
+    "vehicleClass": null,
+    "enginePower": 134,
+    "engineConfiguration": "1.6L I4 DOHC 16V",
+    "engineDisplacement": 1.6,
+    "engineInduction": "Turbocharged",
+    "fuelType": "Gas",
+    "warranty": "Full-factory",
+    "lastModified": "ISODate($lastModified)",
+    "exteriorColorManufacturerCode": "K9E1",
+    "interiorColorManufacturerCode": "NEE1",
+    "packagesAndOptionDescription": [
+      {
+        "code": "Technology Package",
+        "options": ["Sirius XM", "Bluetooth"]
+      },
+      {
+        "code": "Luxury Package",
+        "options": ["Heated Leather Seats"]
+      }
+    ],
+    "stockPhotos": [
+      "https://minidealerprograms.com/stock/123MINI/60a7aa6c19f5d5b2ea41009bc09cda18x.jpg",
+      "https://minidealerprograms.com/stcok/123MINI/87a7aa6c19f5d5b2eeno009bc09cda18x.jpg"
+    ],
+    "photoUrls": [
+      "https://fdevseast01.blob.core.windows.net/fair/1.png",
+      "https://fdevseast01.blob.core.windows.net/fair/2.png"
+    ],
+    "vehicleURL": [
+      "https://fdevseast01.blob.core.windows.net/fair/1.png",
+      "https://fdevseast01.blob.core.windows.net/fair/2.png"
+    ],
+    "optionDescription": [
+      "Satellite Radio Preparation",
+      "Audio Theft Deterrent",
+      "Radio w/Seek-Scan",
+      " Compatible Remote CD",
+      " Clock",
+      " Speed Compensated Volume Control",
+      " Aux Audio Input Jack",
+      " Steering Wheel Controls",
+      " Radio Data System and External Memory Control",
+      "Integrated Roof Diversity Antenna",
+      "Radio: MINI Connected",
+      "6 Speakers",
+      "Black Fender Flares",
+      "Tires: P205/55 R16 Runflat",
+      "Tailgate/Rear Door Lock Included w/Power Door Locks",
+      "Fully Galvanized Steel Panels",
+      "Chrome Side Windows Trim",
+      " Chrome Front Windshield Trim and Chrome Rear Window Trim",
+      "Chrome Door Handles",
+      "Wheels: 16 x 7.0 Loop Spoke Silver Alloy -inc: Style 494",
+      "Body-Colored Front Bumper",
+      "Perimeter/Approach Lights",
+      "Clearcoat Paint",
+      "Split Swing-Out Rear Cargo Access",
+      "Body-Colored Rear Bumper",
+      "Lip Spoiler",
+      "Speed Sensitive Rain Detecting Variable Intermittent Wipers w/Heated Jets",
+      "Fully Automatic Aero-Composite Halogen Daytime Running Headlamps w/Delay-Off",
+      "Front License Plate Bracket",
+      "Black Grille w/Chrome Surround",
+      "Fixed Rear Window w/Fixed Interval Wiper and Defroster",
+      "Light Tinted Glass",
+      "Body-Colored Power Heated Side Mirrors w/Manual Folding",
+      "Manual Air Conditioning",
+      "Engine Immobilizer",
+      "Rigid Cargo Cover",
+      "60-40 Folding Bench Front Facing Fold Forward Seatback Rear Seat",
+      "MINI 6.5 Visual Boost Screen",
+      "Power Door Locks w/Autolock Feature",
+      "Delayed Accessory Power",
+      "Proximity Key For Push Button Start Only",
+      "FOB Controls -inc: Trunk/Hatch/Tailgate and Windows",
+      "Front Map Lights",
+      "Fade-To-Off Interior Lighting",
+      "6-Way Passenger Seat -inc: Manual Recline and Fore/Aft Movement",
+      "Manual Adjustable Front Head Restraints and Manual Adjustable Rear Head Restraints",
+      "Rear Cupholder",
+      "Full Cloth Headliner",
+      "Cruise Control w/Steering Wheel Controls",
+      "Illuminated Glove Box",
+      "Front Cupholder",
+      "Interior Trim -inc: Metal-Look Instrument Panel Insert",
+      " Metal-Look Door Panel Insert",
+      " Chrome And Metal-Look Interior Accents",
+      "Front Center Armrest",
+      "Seats w/Leatherette Back Material",
+      "HVAC -inc: Underseat Ducts",
+      "Full Carpet Floor Covering -inc: Carpet Front And Rear Floor Mats",
+      "Power 1st Row Windows w/Front And Rear 1-Touch Up/Down",
+      "Manual Tilt/Telescoping Steering Column",
+      "Full Floor Console w/Covered Storage",
+      " Mini Overhead Console and 1 12V DC Power Outlet",
+      "Driver Foot Rest",
+      "1 12V DC Power Outlet",
+      "SensaTec Leatherette Upholstery",
+      "Air Filtration",
+      "Sport Leather Steering Wheel",
+      "Day-Night Rearview Mirror",
+      "Trip Computer",
+      "Passenger Seat Height Adjustment",
+      "Enhanced USB & Bluetooth",
+      "5 Person Seating Capacity",
+      "Analog Display",
+      "Power Fuel Flap Locking Type",
+      "Outside Temp Gauge",
+      "Leatherette Gear Shift Knob",
+      "Carpet Floor Trim",
+      "Power Rear Windows and Fixed 3rd Row Windows",
+      "Systems Monitor",
+      "2 Seatback Storage Pockets",
+      "Driver And Passenger Visor Vanity Mirrors w/Driver And Passenger Illumination and Driver Auxiliary Mirror",
+      "Gauges -inc: Speedometer",
+      " Odometer",
+      " Tachometer",
+      " Trip Odometer and Trip Computer",
+      "Covered Dashboard Storage",
+      " Refrigerated/Cooled Box Located In The Glovebox",
+      " Driver / Passenger And Rear Door Bins",
+      "6-Way Driver Seat -inc: Manual Recline",
+      " Height Adjustment and Fore/Aft Movement",
+      "Cargo Space Lights",
+      "Remote Keyless Entry w/Integrated Key Transmitter",
+      " 2 Door Curb/Courtesy and Illuminated Entry",
+      "Front Bucket Seats",
+      "Engine: 1.5L I-3 12V Twin Power Turbocharged",
+      "Electric Power-Assist Speed-Sensing Steering",
+      "Engine Auto Stop-Start Feature",
+      "Front And Rear Anti-Roll Bars",
+      "80-Amp/Hr Maintenance-Free Battery w/Run Down Protection",
+      "4-Wheel Disc Brakes w/4-Wheel ABS",
+      " Front Vented Discs",
+      " Brake Assist",
+      " Hill Hold Control and Electric Parking Brake",
+      "13.2 Gal. Fuel Tank",
+      "Transmission: 6-Speed Manual",
+      "Single Stainless Steel Exhaust w/Chrome Tailpipe Finisher",
+      "Strut Front Suspension w/Coil Springs",
+      "Gas-Pressurized Shock Absorbers",
+      "150 Amp Alternator",
+      "3.88 Axle Ratio",
+      "Multi-Link Rear Suspension w/Coil Springs",
+      "Front-Wheel Drive",
+      "4231# Gvwr 981# Maximum Payload",
+      "Driver And Passenger Knee Airbag",
+      "Curtain 1st And 2nd Row Airbags",
+      "Airbag Occupancy Sensor",
+      "Rear Child Safety Locks",
+      "Dual Stage Driver And Passenger Front Airbags",
+      "Dual Stage Driver And Passenger Seat-Mounted Side Airbags",
+      "Side Impact Beams",
+      "Outboard Front Lap And Shoulder Safety Belts -inc: Rear Center 3 Point and Pretensioners",
+      "Electronic Stability Control (ESC)",
+      "ABS And Driveline Traction Control",
+      "Low Tire Pressure Warning"
+    ],
+    "isDeleted": true,
+    "isUpdated": false,
+    "containerFileName": "MINI_Inventory_NewMaster_10-22-2020.txt",
+    "makeModel": "MINI Cooper Clubman",
+    "publish": false,
+    "status": "Available",
+    "loadedOn": "10/11/2020, 11:35:38",
+    "createdAt": "10/11/2020, 11:35:38",
+    "updatedAt": "2020-10-16T13:36:28.620Z",
+    "generalConfigurations": {
+      "defaultProduct": "Lease"
+    }
+  },
+  "fees": [
+    {
+      "chargeCode": "FirstFees",
+      "chargeDisplayName": "First Fee",
+      "amount": 1000
+    },
+    {
+      "chargeCode": "SecondFees",
+      "chargeDisplayName": "Second Fee",
+      "amount": 2000
+    },
+    {
+      "chargeCode": "ThirdFees",
+      "chargeDisplayName": "Third Fee",
+      "amount": 3000
+    }
+  ],
+  "taxes": [
+    {
+      "taxCode": "FirstTax",
+      "taxDisplayName": "First Tax",
+      "amount": 100
+    },
+    {
+      "taxCode": "SecondTax",
+      "taxDisplayName": "Second Tax",
+      "amount": 200
+    },
+    {
+      "taxCode": "ThirdTax",
+      "taxDisplayName": "Third Tax",
+      "amount": 300
+    }
+  ],
+  "contracts": [
+    {
+      "id": "1",
+      "label": "Customer Acknowledgment",
+      "url": ""
+    },
+    {
+      "id": "2",
+      "label": "buyer's Guide",
+      "url": ""
+    },
+    {
+      "id": "3",
+      "label": "MINI Agreement",
+      "url": ""
+    },
+    {
+      "id": "4",
+      "label": "Vehicle Limited Warranty",
+      "url": ""
+    },
+    {
+      "id": "5",
+      "label": "Vehicle Maintenance",
+      "url": ""
+    },
+    {
+      "id": "6",
+      "label": "Vehicle Roadside Assistance",
+      "url": ""
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "contracts": [
+    {
+      "name": "1",
+      "displayName": "Customer Acknowledgment",
+      "path": "http://www.africau.edu/images/default/sample.pdf",
+      "isSignedByCustomer": true,
+      "isSignedByDealer": true
+    },
+    {
+      "name": "2",
+      "displayName": "Buyer's Guide",
+      "path": "http://www.africau.edu/images/default/sample.pdf",
+      "isSignedByCustomer": false,
+      "isSignedByDealer": false
+    },
+    {
+      "name": "3",
+      "displayName": "MINI Agreement",
+      "path": "http://www.africau.edu/images/default/sample.pdf",
+      "isSignedByCustomer": true,
+      "isSignedByDealer": true
+    },
+    {
+      "name": "4",
+      "displayName": "Vehicle Limited Warranty",
+      "path": "http://www.africau.edu/images/default/sample.pdf",
+      "isSignedByCustomer": true,
+      "isSignedByDealer": true
+    },
+    {
+      "name": "5",
+      "displayName": "Vehicle Maintenance Plan",
+      "path": "http://www.africau.edu/images/default/sample.pdf",
+      "isSignedByCustomer": true,
+      "isSignedByDealer": true
+    },
+    {
+      "name": "6",
+      "displayName": "Vehicle Roadside Assistance",
+      "path": "http://www.africau.edu/images/default/sample.pdf",
+      "isSignedByCustomer": true,
+      "isSignedByDealer": true
+    }
+  ]
+}

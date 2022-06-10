@@ -1,0 +1,6 @@
+@import "theme";
+@import "~bootstrap/scss/grid";
+
+.container {
+  @extend .container;
+}

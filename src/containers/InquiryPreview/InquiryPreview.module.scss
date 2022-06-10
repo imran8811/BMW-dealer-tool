@@ -1,0 +1,28 @@
+@import "theme";
+@import "~bootstrap/scss/utilities/spacing";
+
+.detailsGrid {
+  @extend .mt-4;
+  @extend .mt-xl-5;
+  @extend .pt-xl-3;
+
+  display: grid;
+  grid-gap: ($spacer / 2);
+
+  @include media-breakpoint-up(xl) {
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: row;
+  }
+}
+
+.cancelList {
+  color: $primary;
+  font-size: 25px;
+  li {
+    line-height: 20px;
+  }
+  span {
+    color: $black;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,16 @@
+@import "theme";
+@import "~bootstrap/scss/utilities/spacing";
+
+.noData {
+  background: $white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: $font-size-sm;
+  flex-direction: column;
+}
+
+.icon {
+  @extend .mb-3;
+  color: $danger;
+}

@@ -1,0 +1,31 @@
+# API_GATEWAY_URL=https://fair-dev.otoz.biz/api
+ ADMIN_API_GATEWAY_URL=https://fair-dev-admin.otoz.biz/dealer-api
+# ADMIN_API_GATEWAY_URL=http://localhost:8081
+# ADMIN_API_GATEWAY_URL=https://fair-qa-admin.otoz.biz/dealer-api
+# ADMIN_API_GATEWAY_URL=https://moto-dev-admin.otoz.biz/dealer-api
+GOOGLE_MAPS_WEB_API_KEY=AIzaSyDDm3X1GPJgur0gehCO32h00bl3gVcfWCY
+KNOWLEDGE_BASE_API_KEY_ENCRYPTED=d0fb1d8e522f03723d21ce108d0d5516
+###################################
+LAUNCH_DARKLY_USER_EMAIL=ntpk.otoz-admin@netsoltech.com
+LAUNCH_DARKLY_USER_NAME=Otoz Innovation
+# dev
+LAUNCH_DARKLY_SDK_KEY=sdk-78f03b86-25b6-4d06-872d-306eb9254c16
+LAUNCH_DARKLY_CLIENT_ID=611285e0c0d08a2667092fbb
+# qa
+#LAUNCH_DARKLY_SDK_KEY=sdk-23c9849f-ca70-47f8-88f3-07982f7ed559
+#LAUNCH_DARKLY_CLIENT_ID=60f0578ecc470d24935cbc5e
+# uat
+#LAUNCH_DARKLY_SDK_KEY=sdk-08196e99-2f33-41a2-b0cd-b8805f2a2204
+#LAUNCH_DARKLY_CLIENT_ID=61128796c0d08a2667093002
+# preprod
+#LAUNCH_DARKLY_SDK_KEY=sdk-6ed97706-dc8c-4671-8289-7312ba68fdc9
+#LAUNCH_DARKLY_CLIENT_ID=611287d69770913e964254a6
+# production
+#LAUNCH_DARKLY_SDK_KEY=sdk-c6c52434-0d7a-43ae-adfd-d5df643adb62
+#LAUNCH_DARKLY_CLIENT_ID=60f0578ecc470d24935cbc5f
+
+##############################################
+
+STORAGE_ACCOUNT_URL=
+# APP_TENANT_CODE=motorrad
+APP_TENANT_CODE=fair

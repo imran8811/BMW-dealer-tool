@@ -1,0 +1,60 @@
+@import "theme";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/mixins/_breakpoints";
+
+.dialog :global .p-dialog-header-icon {
+  background-image: url(./assets/Close.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1rem;
+  outline: 0 none;
+  box-shadow: 0 0 0 transparent;
+  transition: all 0.3s;
+
+  &:enabled:hover {
+    background-color: rgba($black, 0.1);
+  }
+  @include media-breakpoint-down(md) {
+    display: none;
+  }
+}
+
+.dialog {
+  border-radius: 0;
+  padding: 60px;
+  background: $white;
+  position: relative;
+  margin: auto;
+  max-height: fit-content;
+  :global(.p-dialog-header) {
+    border: none;
+    margin-bottom: 20px;
+  }
+
+  :global(.p-dialog-header),
+  :global(.p-dialog-content) {
+    border-radius: 0;
+    padding: 0;
+    overflow-y: visible;
+  }
+
+  :global(.p-dialog-header-close) {
+    top: -60px;
+    right: -50px;
+    position: relative;
+  }
+  @include media-breakpoint-down(md) {
+    max-width: 92vw;
+    padding: 30px;
+  }
+}
+
+.dialogmask {
+  overflow-y: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  @include media-breakpoint-down(md) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}

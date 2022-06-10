@@ -1,0 +1,141 @@
+@import "theme";
+@import "~bootstrap/scss/mixins/_breakpoints";
+th {
+  .select-filter-status {
+    min-width: 172.4px;
+    height: 38.8px;
+  }
+}
+
+div.switch-master-addon-status {
+  width: 2.44rem;
+  height: 1.2rem;
+  span::before {
+    width: 1.02rem;
+    height: 1.05rem;
+    left: 0.1rem;
+    margin-top: -0.53rem;
+  }
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.overlay {
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba($body-muted, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.row {
+  display: flex;
+  padding-top: 20px;
+}
+
+.centered {
+  justify-content: center;
+}
+
+.cell {
+  flex: 1;
+  & + & {
+    margin-left: 10px;
+  }
+}
+
+.button {
+  width: auto;
+
+  & + & {
+    margin-left: 10px;
+  }
+  @include media-breakpoint-down(md) {
+    padding: 0.8125rem 2rem;
+  }
+}
+
+.cancelBtn {
+  @include media-breakpoint-down(md) {
+    padding: 0.8125rem 1.59rem;
+  }
+}
+
+.saveBtn {
+  @include media-breakpoint-down(md) {
+    padding: 0.8125rem 2.2rem;
+  }
+}
+
+.selectClass {
+  height: 42px;
+  padding: 10px;
+  padding-right: 40px;
+  font-size: 0.875rem;
+  color: #6d6d78;
+  min-width: 224px;
+}
+
+.noBackground {
+  background-image: none;
+}
+
+.multiClass {
+  :global .p-multiselect-header {
+    padding: 0.75rem 0.755rem;
+  }
+}
+
+.editColumn {
+  position: absolute;
+  right: 0px;
+  z-index: 100;
+  background: inherit;
+}
+
+.tablewithEdit {
+  :global .p-datatable-thead {
+    tr > th:last-of-type {
+      min-width: 50px;
+    }
+    tr:first-of-type > th:last-of-type {
+      position: relative;
+    }
+  }
+  :global .p-datatable-tbody {
+    tr > td:last-of-type {
+      border-top: none;
+      border-left: 1px solid $table-gray;
+      min-height: 100%;
+    }
+  }
+  :global .p-filter-column .p-multiselect {
+    .p-multiselect-label.p-placeholder {
+      color: #75777c;
+      font-weight: 500;
+      margin-top: -3px;
+    }
+  }
+}
+
+.uploadClass {
+  margin-top: 2.8rem;
+}
+
+.addonFormDialog {
+  :global .p-dialog-content {
+    .p-multiselect-label {
+      max-width: 350px;
+    }
+  }
+}

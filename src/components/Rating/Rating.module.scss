@@ -1,0 +1,81 @@
+@import "theme";
+
+$rate-icon-size: 1.5rem;
+$rate-circle-size: 3.75rem;
+
+.Selector {
+  flex: 1;
+  cursor: pointer;
+
+  .Circle {
+    width: $rate-circle-size;
+    height: $rate-circle-size;
+    display: flex;
+    vertical-align: middle;
+    text-align: center;
+    border: 0.063rem solid $border-color;
+    border-radius: $rate-circle-size;
+    clear: both;
+    transition: all 0.3s;
+    margin: auto auto 0.688rem auto;
+
+    .Icon {
+      width: $rate-icon-size;
+      height: $rate-icon-size;
+      background-position-y: top;
+      background-position-x: center;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      display: table;
+      margin: auto;
+    }
+  }
+
+  .Caption, span {
+    font-size: 1.125rem;
+    color: $text-muted;
+    width: 100%;
+    display: block;
+    text-align: center;
+    transition: all 0.3s;
+  }
+
+  span {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  &:hover {
+    .Circle {
+      border-color: $black;
+    }
+
+    .Caption {
+      color: $black;
+    }
+    span 
+    {
+      opacity: 0.5;
+      visibility: visible;
+    }
+  }
+
+  &.Active {
+    .Circle {
+      border-color: $primary;
+
+      .Icon {
+        background-position-y: bottom;
+      }
+    }
+
+    .Caption {
+      color: $black;
+    }
+
+    span {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}

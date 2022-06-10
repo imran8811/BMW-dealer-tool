@@ -1,0 +1,24 @@
+{
+  "compatibleModels": [
+    {
+      "value": "CLUBMAN",
+      "label": "CLUBMAN"
+    },
+    {
+      "value": "CONVERTIBLE",
+      "label": "CONVERTIBLE"
+    },
+    {
+      "value": "COUNTRYMAN",
+      "label": "COUNTRYMAN"
+    },
+    {
+      "value": "HARDTOP2DOOR",
+      "label": "HARDTOP 2 DOOR"
+    },
+    {
+      "value": "HARDTOP4DOOR",
+      "label": "HARDTOP 4 DOOR"
+    }
+  ]
+}

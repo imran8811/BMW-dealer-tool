@@ -1,0 +1,225 @@
+/* stylelint-disable no-descending-specificity, no-duplicate-selectors */
+
+@import "theme";
+@import "~bootstrap/scss/mixins/_breakpoints";
+@import "~bootstrap/scss/grid";
+
+.price {
+  color: $primary;
+  font-weight: bold;
+}
+
+.head {
+  text-transform: uppercase;
+  font-weight: $font-weight-bold;
+  font-size: $font-size-sm;
+  margin-bottom: $spacer / 4;
+}
+
+.noGutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.sellingPriceCol {
+  margin-left: auto;
+}
+
+.odometerCol {
+  max-width: 50%;
+  @include media-breakpoint-down(md) {
+    max-width: 100%;
+  }
+}
+
+.confirmPadding {
+  padding: 10px 5px;
+  p {
+    font-weight: bold;
+  }
+}
+
+.dueAtSignText {
+  font-size: 0.875rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  span {
+    color: $primary;
+    font-weight: 600;
+  }
+}
+
+.overlay {
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba($body-muted, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.wrapOverlay {
+  position: relative;
+}
+
+.overrideTab {
+  :global ul li a.p-menuitem-link {
+    &::after {
+      content: unset;
+    }
+    & span {
+      font-size: 36px;
+      line-height: 48px;
+      font-weight: 700;
+      color: $light-grey;
+      text-transform: uppercase;
+    }
+  }
+  :global ul li.p-tabmenuitem.p-highlight {
+    & span.p-menuitem-text {
+      color: $black;
+    }
+  }
+}
+.scrollBtnWrap {
+  top: -70px;
+  z-index: 1000;
+}
+.protection-products-dialog {
+  width: 1060px;
+  :global div.p-dialog-header span.p-dialog-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    color: $black;
+  }
+  :global .p-dialog-header-close {
+    display: none;
+  }
+}
+
+.infoContainer {
+  display: flex;
+  @include media-breakpoint-down(sm) {
+    flex-direction: column-reverse;
+  }
+  div {
+    flex: 1;
+    margin: 15px 0;
+  }
+  div h6 {
+    color: $black;
+  }
+  div img {
+    width: 100%;
+    height: auto;
+  }
+  :global div.meta {
+    @include media-breakpoint-up(sm) {
+      padding-right: 20px;
+    }
+  }
+  :global div.img {
+    @include media-breakpoint-up(sm) {
+      padding-left: 10px;
+    }
+  }
+}
+
+.addonsContainer {
+  display: flex;
+  flex-direction: column;
+  height: 316px;
+  overflow-y: auto;
+  margin: 20px 0;
+  &::-webkit-scrollbar {
+    width: 1px;
+  }
+  @include media-breakpoint-down(sm) {
+    height: 516px;
+  }
+}
+.addonWrap {
+  display: flex;
+  padding: 10px;
+  border: 1px solid $border-color;
+  min-height: 100px;
+  margin: 7px 0;
+  @include media-breakpoint-down(md) {
+    min-height: 130px;
+  }
+  @include media-breakpoint-down(sm) {
+    flex-direction: column;
+    min-height: max-content;
+  }
+}
+.addonHeading {
+  flex: 1.5;
+  @include media-breakpoint-down(md) {
+    flex: 1;
+  }
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 5px 10px;
+  span {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: $black;
+    text-transform: capitalize;
+  }
+}
+.addonMeta {
+  flex: 1;
+  padding: 5px 10px;
+  p {
+    font-size: 14px;
+    margin: 0;
+    line-height: 24px;
+  }
+}
+.addonPrice {
+  flex: 1;
+  text-align: right;
+  padding: 5px 10px;
+}
+.priceFigure {
+  color: $black;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0;
+}
+.salePrice {
+  font-size: 14px;
+}
+.addonButton {
+  flex: 1;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  @include media-breakpoint-down(sm) {
+    margin: 0;
+  }
+  button {
+    width: 163px;
+    @include media-breakpoint-down(sm) {
+      width: 100%;
+    }
+  }
+}
+.buttonWrap {
+  @extend .row;
+  @include media-breakpoint-down(sm) {
+    flex-direction: column-reverse;
+  }
+}

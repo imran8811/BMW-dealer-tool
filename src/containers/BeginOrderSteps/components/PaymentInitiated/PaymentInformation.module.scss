@@ -1,0 +1,29 @@
+@import "theme";
+@import "~bootstrap/scss/mixins/_breakpoints";
+
+.border-right-lg {
+  border-right: 1px solid $border-color-light;
+  @include media-breakpoint-down(md) {
+    border-bottom: 0;
+    border-right: unset;
+  }
+}
+
+.license {
+  height: 21.0625rem;
+  width: 33.5rem;
+  @include media-breakpoint-down(xl) {
+    height: auto;
+  }
+  @include media-breakpoint-down(md) {
+    width: 100%;
+  }
+}
+
+.btnMuted {
+  &:disabled {
+    background-color: $body-muted;
+    border-color: $body-muted;
+    color: $text-muted;
+  }
+}

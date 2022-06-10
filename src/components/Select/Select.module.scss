@@ -1,0 +1,7 @@
+@import "theme";
+@import "~bootstrap/scss/custom-forms";
+
+.customSelect {
+  @extend .custom-select;
+  background-image: url("../../common/assets/chevron-gray.svg");
+}

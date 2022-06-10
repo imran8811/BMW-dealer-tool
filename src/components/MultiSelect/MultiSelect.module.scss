@@ -1,0 +1,60 @@
+@import "theme";
+
+.noHeader {
+  :global(.p-multiselect-header) {
+    display: none;
+  }
+}
+
+.multiselect {
+  height: 3rem;
+  width: 100%;
+
+  :global(.p-multiselect-trigger) {
+    &::before {
+      content: url("../../common/assets/chevron-gray.svg");
+      margin-right: (4rem / 16);
+      margin-bottom: (2rem / 16);
+    }
+  }
+
+  :global(.p-multiselect-panel) {
+    width: calc(100% + #{(2 * $border-width)});
+    margin: -(2 * $border-width) -$border-width 0 -$border-width;
+  }
+
+  :global(.p-checkbox-icon) {
+    background: url("../../common/assets/checkbox.svg");
+    width: 1rem;
+    height: 1rem;
+  }
+
+  :global(.p-multiselect-item span) {
+    display: inline;
+    margin-bottom: 0;
+    text-transform: none;
+    font-weight: $font-weight-normal;
+  }
+
+  :global(.p-multiselect-label.p-inputtext) {
+    margin: auto 0 auto $custom-select-padding-y;
+  }
+
+  :global(.p-highlight .p-checkbox .p-checkbox-box) {
+    border: none;
+  }
+}
+
+.multiselect.small {
+  height: 2.5rem;
+  font-size: $font-size-sm;
+}
+
+.selectAll {
+  :global .p-multiselect-header .p-checkbox::after {
+    content: "Select All";
+    padding-left: 10px;
+    min-width: max-content;
+    margin-top: -3px;
+  }
+}

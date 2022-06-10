@@ -1,0 +1,15 @@
+@import "theme";
+
+.icon-lg {
+  max-height: 7.5rem;
+}
+
+.auto_info {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  span {
+    color: $text-muted;
+    width: 6rem;
+    display: inline-block;
+  }
+}

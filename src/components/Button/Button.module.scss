@@ -1,0 +1,74 @@
+@import "theme";
+@import "~bootstrap/scss/buttons";
+
+.button {
+  @extend .btn;
+  display: block;
+  text-transform: uppercase;
+  font-weight: $font-weight-bold;
+  outline: 0 none;
+  width: 100%;
+
+  @include media-breakpoint-up(lg) {
+    width: auto;
+  }
+}
+
+.buttonPrimary {
+  @extend .btn-primary;
+
+  &:active,
+  &:focus,
+  &:not(.loading):hover {
+    color: $black;
+    background-color: $white;
+    border: $border-size solid $black;
+  }
+}
+
+.buttonSecondary {
+  @extend .btn-outline-dark;
+
+  &:active,
+  &:focus,
+  &:hover:not(.loading) {
+    color: $white;
+    background-color: $black;
+    border: $border-size solid $black;
+  }
+}
+
+.fullWidth {
+  @include media-breakpoint-up(lg) {
+    width: 100%;
+  }
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hoverPrimary {
+  &:hover, &:active, &:focus {
+    color: $white;
+    background-color: $primary;
+    border-color: $primary;
+  }
+}
+
+.buttonTertiary {
+  @extend .btn-light;
+
+  background: $white;
+  color: $black;
+}
+
+.loading {
+  opacity: 0.5;
+}
+
+.button.small, .button.small.fullWidth {
+  width: 6.0125rem;
+  padding: 0.8125rem;
+}

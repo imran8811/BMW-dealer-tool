@@ -1,0 +1,281 @@
+{
+  "accessories": {
+    "pageData": [
+      {
+        "_id": "5fb4d4407404a78ba94db442",
+        "supplier": "OEM",
+        "name": "Roof Graphic",
+        "description": "Roof Graphic",
+        "residualValueAdder": 25,
+        "price": 25,
+        "partNo": "1",
+        "dealerCode": null,
+        "category": { "code": "Others", "displayName": "Others" },
+        "installationMode": { "code": "PreInstalled", "displayName": "PreInstalled" },
+        "compatibleModels": [
+          { "code": "CLUBMAN", "displayName": "CLUBMAN" },
+          { "code": "COUNTRYMAN", "displayName": "COUNTRYMAN" },
+          { "code": "HARDTOP2DOOR", "displayName": "HARDTOP 2 DOOR" },
+          { "code": "HARDTOP4DOOR", "displayName": "HARDTOP 4 DOOR" }
+        ],
+        "isActive": true,
+        "createdAt": "2020-11-17T06:00:00.000Z",
+        "updatedAt": "2021-10-06T12:12:24.634Z",
+        "__v": 0
+      },
+      {
+        "_id": "5fb4d4407404a78ba94db444",
+        "supplier": "OEM",
+        "name": "Rear Spoiler",
+        "description": "Rear Spoiler",
+        "residualValueAdder": 25,
+        "price": 25,
+        "partNo": "1",
+        "dealerCode": null,
+        "category": { "code": "Others", "displayName": "Others" },
+        "installationMode": { "code": "Optional", "displayName": "Optional" },
+        "compatibleModels": [
+          { "code": "HARDTOP2DOOR", "displayName": "HARDTOP 2 DOOR" },
+          { "code": "HARDTOP4DOOR", "displayName": "HARDTOP 4 DOOR" }
+        ],
+        "isActive": false,
+        "createdAt": "2020-11-17T06:00:00.000Z",
+        "updatedAt": "2021-10-06T09:26:34.971Z",
+        "__v": 0
+      }
+    ],
+    "page": 1,
+    "total": 22,
+    "limit": 10,
+    "pages": 3
+  },
+  "referenceData": [
+    {
+      "_id": "5fb2392c4f72cf5841e3e486",
+      "isActive": true,
+      "typeCode": "Category",
+      "typeName": "Category",
+      "typeDisplayName": "Category",
+      "typeDescription": "Category",
+      "createdAt": "2020-11-16T08:32:44.462Z",
+      "updatedAt": "2020-11-16T08:32:44.462Z",
+      "lookups": [
+        {
+          "additionalInfo": null,
+          "isActive": true,
+          "code": "AlloyWheels",
+          "name": "Alloy Wheels",
+          "displayName": "Alloy Wheels",
+          "description": "Alloy Wheels",
+          "createdAt": "2020-11-16T08:32:44.462Z",
+          "updatedAt": "2020-11-16T08:32:44.462Z"
+        },
+        {
+          "additionalInfo": null,
+          "isActive": true,
+          "code": "Communication&Technology",
+          "name": "Communication & Technology",
+          "displayName": "Communication & Technology",
+          "description": "Communication & Technology",
+          "createdAt": "2020-11-16T08:32:44.462Z",
+          "updatedAt": "2020-11-16T08:32:44.462Z"
+        },
+        {
+          "additionalInfo": null,
+          "isActive": true,
+          "code": "E-Mobility",
+          "name": "E-Mobility",
+          "displayName": "E-Mobility",
+          "description": "E-Mobility",
+          "createdAt": "2020-11-16T08:32:44.462Z",
+          "updatedAt": "2020-11-16T08:32:44.462Z"
+        },
+        {
+          "additionalInfo": null,
+          "isActive": true,
+          "code": "ExteriorDesign",
+          "name": "Exterior Design",
+          "displayName": "Exterior Design",
+          "description": "Exterior Design",
+          "createdAt": "2020-11-16T08:32:44.462Z",
+          "updatedAt": "2020-11-16T08:32:44.462Z"
+        },
+        {
+          "additionalInfo": null,
+          "isActive": true,
+          "code": "InteriorDesign",
+          "name": "Interior Design",
+          "displayName": "Interior Design",
+          "description": "Interior Design",
+          "createdAt": "2020-11-16T08:32:44.462Z",
+          "updatedAt": "2020-11-16T08:32:44.462Z"
+        },
+        {
+          "additionalInfo": null,
+          "isActive": true,
+          "code": "LightAlloyWheels",
+          "name": "Light Alloy Wheels",
+          "displayName": "Light Alloy Wheels",
+          "description": "Light Alloy Wheels",
+          "createdAt": "2020-11-16T08:32:44.462Z",
+          "updatedAt": "2020-11-16T08:32:44.462Z"
+        },
+        {
+          "additionalInfo": null,
+          "isActive": true,
+          "code": "Luggage&Leisure",
+          "name": "Luggage & Leisure",
+          "displayName": "Luggage & Leisure",
+          "description": "Luggage & Leisure",
+          "createdAt": "2020-11-16T08:32:44.462Z",
+          "updatedAt": "2020-11-16T08:32:44.462Z"
+        },
+        {
+          "additionalInfo": null,
+          "isActive": true,
+          "code": "Maintenance&Care",
+          "name": "Maintenance & Care",
+          "displayName": "Maintenance & Care",
+          "description": "Maintenance & Care",
+          "createdAt": "2020-11-16T08:32:44.462Z",
+          "updatedAt": "2020-11-16T08:32:44.462Z"
+        },
+        {
+          "additionalInfo": null,
+          "isActive": true,
+          "code": "MINICarCare",
+          "name": "MINI Car Care",
+          "displayName": "MINI Car Care",
+          "description": "MINI Car Care",
+          "createdAt": "2020-11-16T08:32:44.462Z",
+          "updatedAt": "2020-11-16T08:32:44.462Z"
+        },
+        {
+          "additionalInfo": null,
+          "isActive": true,
+          "code": "Music&Electronics",
+          "name": "Music & Electronics",
+          "displayName": "Music & Electronics",
+          "description": "Music & Electronics",
+          "createdAt": "2020-11-16T08:32:44.462Z",
+          "updatedAt": "2020-11-16T08:32:44.462Z"
+        },
+        {
+          "additionalInfo": null,
+          "isActive": true,
+          "code": "Protection&Safety",
+          "name": "Protection & Safety",
+          "displayName": "Protection & Safety",
+          "description": "Protection & Safety",
+          "createdAt": "2020-11-16T08:32:44.462Z",
+          "updatedAt": "2020-11-16T08:32:44.462Z"
+        },
+        {
+          "additionalInfo": null,
+          "isActive": true,
+          "code": "Others",
+          "name": "Others",
+          "displayName": "Others",
+          "description": "Others",
+          "createdAt": "2020-11-16T08:32:44.462Z",
+          "updatedAt": "2020-11-16T08:32:44.462Z"
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5fb2392c4f72cf0926e3e487",
+      "isActive": true,
+      "typeCode": "InstallationMode",
+      "typeName": "Installation Mode",
+      "typeDisplayName": "Installation Mode",
+      "typeDescription": "Installation Mode",
+      "createdAt": "2020-11-16T08:32:44.462Z",
+      "updatedAt": "2020-11-16T08:32:44.462Z",
+      "lookups": [
+        {
+          "additionalInfo": null,
+          "isActive": true,
+          "code": "PreInstalled",
+          "name": "Pre Installed",
+          "displayName": "Pre Installed",
+          "description": "Pre Installed",
+          "createdAt": "2020-11-16T08:32:44.462Z",
+          "updatedAt": "2020-11-16T08:32:44.462Z"
+        },
+        {
+          "additionalInfo": null,
+          "isActive": true,
+          "code": "Optional",
+          "name": "Optional",
+          "displayName": "Optional",
+          "description": "Optional",
+          "createdAt": "2020-11-16T08:32:44.462Z",
+          "updatedAt": "2020-11-16T08:32:44.462Z"
+        }
+      ]
+    },
+    {
+      "_id": "5fb2392c4f72cf2e01e3e488",
+      "isActive": true,
+      "typeCode": "CompatibleModels",
+      "typeName": "Compatible Models",
+      "typeDisplayName": "Compatible Models",
+      "typeDescription": "Compatible Models",
+      "createdAt": "2020-11-16T08:32:44.462Z",
+      "updatedAt": "2020-11-16T08:32:44.462Z",
+      "lookups": [
+        {
+          "code": "CLUBMAN",
+          "name": "CLUBMAN",
+          "description": "CLUBMAN",
+          "displayName": "CLUBMAN",
+          "isActive": true,
+          "additionalInfo": null,
+          "createdOn": "2020-11-24T07:23:54.575Z",
+          "updatedOn": "2020-11-24T07:23:54.575Z"
+        },
+        {
+          "code": "CONVERTIBLE",
+          "name": "CONVERTIBLE",
+          "description": "CONVERTIBLE",
+          "displayName": "CONVERTIBLE",
+          "isActive": true,
+          "additionalInfo": null,
+          "createdOn": "2020-11-24T07:23:54.575Z",
+          "updatedOn": "2020-11-24T07:23:54.575Z"
+        },
+        {
+          "code": "COUNTRYMAN",
+          "name": "COUNTRYMAN",
+          "description": "COUNTRYMAN",
+          "displayName": "COUNTRYMAN",
+          "isActive": true,
+          "additionalInfo": null,
+          "createdOn": "2020-11-24T07:23:54.575Z",
+          "updatedOn": "2020-11-24T07:23:54.575Z"
+        },
+        {
+          "code": "HARDTOP2DOOR",
+          "name": "HARDTOP 2 DOOR",
+          "description": "HARDTOP 2 DOOR",
+          "displayName": "HARDTOP 2 DOOR",
+          "isActive": true,
+          "additionalInfo": null,
+          "createdOn": "2020-11-24T07:23:54.575Z",
+          "updatedOn": "2020-11-24T07:23:54.575Z"
+        },
+        {
+          "code": "HARDTOP4DOOR",
+          "name": "HARDTOP 4 DOOR",
+          "description": "HARDTOP 4 DOOR",
+          "displayName": "HARDTOP 4 DOOR",
+          "isActive": true,
+          "additionalInfo": null,
+          "createdOn": "2020-11-24T07:23:54.575Z",
+          "updatedOn": "2020-11-24T07:23:54.575Z"
+        }
+      ]
+    }
+  ]
+}

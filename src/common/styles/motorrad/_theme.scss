@@ -1,0 +1,115 @@
+$black: #000000;
+$white: #ffffff;
+$grey: #717171;
+$dim-grey: #e5e5e5;
+$light-grey: #d3d3d3;
+$table-gray: #eeeeee;
+$primary: #16171a;
+$selectionBackground: #fcf3f4;
+$body-color: $black;
+$text-muted: $black;
+$text-muted-grey: #6d6d78;
+$body-bg: $white;
+$body-muted: #f8f8f8;
+$border-color: #a1a1aa;
+$danger: $primary;
+$dark: $black;
+$transparent: transparent;
+
+$border-size: 1px;
+$border: $border-size solid $border-color;
+$border-color-light: rgba(0, 0, 0, 0.1);
+$border-radius: (5rem / 16);
+$border-radius-sm: (2rem / 16);
+$border-radius-lg: (10rem / 16);
+
+$font-family-sans-serif: "Motorrad", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+  "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+// $headings-font-family: "MINIHeadlineSerif", "MINISerif", MiniSerif, Times, Times New Roman, Georgia, serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$headings-font-family: $font-family-sans-serif;
+$headings-font-weight: 700;
+$font-size-sm: (14rem / 16);
+$font-size-tiny: (11rem / 16);
+$small-font-size: $font-size-sm;
+$nav-active-link-color: $primary;
+
+// $h1-font-size: 72rem / 16;
+// $h2-font-size: 56rem / 16;
+// $h3-font-size: 40rem / 16;
+// $h4-font-size: 32rem / 16;
+// $h5-font-size: 24rem / 16;
+// $h6-font-size: 1rem;
+
+$grid-gutter-width: (24rem * 2 / 16); // 24px per side
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1230px,
+  xxl: 1750px,
+);
+
+$container-max-widths: (
+  sm: 100%,
+  md: 100%,
+  lg: 980px,
+  xl: 1280px,
+  xxl: 1688px,
+);
+
+$spacer: (20rem / 16);
+
+// 1→5px; 2→10px; 3→20px; 4→30px; 5→50px
+$spacers: (
+  0: 0,
+  1: $spacer / 4,
+  2: $spacer / 2,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 2.5,
+);
+
+$input-btn-font-family: $font-family-sans-serif;
+$input-btn-padding-y: 0.8125rem;
+$input-btn-padding-x: 0.9375rem;
+$input-btn-line-height: 1.25;
+$btn-padding-x: 3.125rem;
+$input-color: $black;
+$input-border-color: $border-color;
+$form-text-color: $black;
+$btn-box-shadow: none;
+$btn-focus-width: 0;
+$input-focus-box-shadow: none;
+$custom-select-box-shadow: none;
+$custom-select-focus-box-shadow: none;
+$input-focus-border-color: $black;
+
+$btn-border-radius: 0;
+$input-border-radius: 0;
+$form-select-border-radius: 0;
+$custom-select-border-radius: 0;
+
+$custom-checkbox-indicator-border-radius: 1rem / 8;
+$custom-control-indicator-size: 1.25rem;
+$input-btn-focus-color: rgba($black, 0.1);
+$input-btn-focus-width: 1rem / 8;
+$input-hover-border-color: $border-color;
+$custom-control-indicator-active-bg: lighten($text-muted, 25%);
+$custom-select-bg-size: 11px 6px;
+$badge-size: (20rem / 16);
+$main-heading-text-transform: uppercase;
+$responsive-logo-width: 95px;
+$logo-width: 117px;
+$xl-grid: 1230px;
+$label-min-width: auto;
+
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+.form-title {
+  text-transform: uppercase !important;
+}

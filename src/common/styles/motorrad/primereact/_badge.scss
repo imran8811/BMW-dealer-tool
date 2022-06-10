@@ -1,0 +1,105 @@
+.p-badge {
+  display: inline-flex;
+  border-radius: ($badge-size / 2);
+  text-align: center;
+  background: $primary;
+  color: #ffffff;
+  font-size: (11rem / 16);
+  font-weight: $font-weight-bold;
+  min-width: $badge-size;
+  padding: 0 (3rem / 16) 0 (4rem / 16);
+  height: $badge-size;
+  line-height: 1em;
+  margin: -0.5rem 0;
+  vertical-align: (3rem / 16);
+  align-items: center;
+  justify-content: center;
+
+  &.p-badge-secondary {
+    background-color: #6c757d;
+    color: #ffffff;
+  }
+
+  &.p-badge-success {
+    background-color: #28a745;
+    color: #ffffff;
+  }
+
+  &.p-badge-info {
+    background-color: #17a2b8;
+    color: #ffffff;
+  }
+
+  &.p-badge-warning {
+    background-color: #ffc107;
+    color: $text-muted;
+  }
+
+  &.p-badge-danger {
+    background-color: #dc3545;
+    color: #ffffff;
+  }
+
+  &.p-badge-lg {
+    font-size: 1.125rem;
+    min-width: 2.25rem;
+    height: 2.25rem;
+    line-height: 2.25rem;
+  }
+
+  &.p-badge-xl {
+    font-size: 1.5rem;
+    min-width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+  }
+}
+
+.p-tag {
+  display: inline-block;
+  text-align: center;
+  line-height: 1.5;
+  background: $primary;
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.25rem 0.4rem;
+  border-radius: $border-radius;
+
+  &.p-tag-rounded {
+    border-radius: 10rem;
+  }
+
+  &.p-tag-success {
+    background-color: #28a745;
+    color: #ffffff;
+  }
+
+  &.p-tag-info {
+    background-color: #17a2b8;
+    color: #ffffff;
+  }
+
+  &.p-tag-warning {
+    background-color: #ffc107;
+    color: $text-muted;
+  }
+
+  &.p-tag-danger {
+    background-color: #dc3545;
+    color: #ffffff;
+  }
+}
+
+.p-overlay-badge {
+  position: relative;
+  display: inline-block;
+
+  .p-badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(1em, -1em);
+    margin: 0;
+  }
+}

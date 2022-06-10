@@ -1,0 +1,120 @@
+@import "theme";
+
+$fullWidthMargin: 3rem;
+
+.boundry {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+}
+
+.wrapper {
+  @extend .boundry;
+}
+
+.navPadding {
+  @include media-breakpoint-up(xl) {
+    padding: 0 $fullWidthMargin;
+  }
+}
+
+.navPaddingFraction {
+  @include media-breakpoint-up(xl) {
+    padding: 0;
+  }
+}
+
+.fullWidth {
+  @include media-breakpoint-up(xl) {
+    margin: 0 (0 - $fullWidthMargin);
+    box-sizing: content-box;
+  }
+}
+
+.carousel {
+  @extend .boundry;
+}
+
+.swiper {
+  position: relative;
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+}
+
+.carousel :global .swiper-container {
+  width: 100%;
+}
+
+.carousel :global .swiper-container,
+.carousel :global .swiper-slide {
+  backface-visibility: hidden;
+}
+
+.nav {
+  background-color: $text-muted;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  border-radius: 50%;
+  z-index: 3;
+  opacity: 1;
+  cursor: pointer;
+  top: 50%;
+  transform: translateY(-50%);
+  width: (28rem / 16);
+  height: (28rem / 16);
+  @include media-breakpoint-up(xl) {
+    width: (40rem / 16);
+    height: (40rem / 16);
+  }
+
+  &:after {
+    display: none;
+  }
+}
+
+.nav:global(.swiper-button-disabled) {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.next {
+  right: 0;
+  background-image: url("./assets/chevron-right.svg");
+  margin-right: -(4rem / 16);
+
+  @include media-breakpoint-up(xl) {
+    margin-right: 0;
+  }
+}
+
+.prev {
+  left: 0;
+  background-image: url("./assets/chevron-left.svg");
+  margin-left: -(4rem / 16);
+
+  @include media-breakpoint-up(xl) {
+    margin-left: 0;
+  }
+}
+
+.navFractionTypeBack {
+  background-color: transparent;
+  background-image: url("./assets/chevron-grey-left.svg");
+  background-position: center;
+  top: 88.5%;
+  left: 9%;
+  margin: 0;
+}
+
+.navFractionTypeNext {
+  background-color: transparent;
+  background-image: url("./assets/chevron-grey-right.svg");
+  background-position: center;
+  top: 88.5%;
+  right: 9%;
+  margin: 0;
+}

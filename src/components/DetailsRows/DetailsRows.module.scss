@@ -1,0 +1,24 @@
+@import "theme";
+@import "~bootstrap/scss/utilities/spacing";
+
+.details {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(auto, 12.5rem) minmax(50%, 1fr);
+  grid-template-rows: auto;
+  justify-content: space-between;
+  overflow-wrap: break-word;
+}
+
+.detailsRowLabel {
+  @extend .pr-2;
+  color: $text-muted;
+}
+
+.detailsRowValue {
+  display: flex;
+  flex-direction: column;
+}
+.justifyEnd {
+  justify-content: flex-end;
+}

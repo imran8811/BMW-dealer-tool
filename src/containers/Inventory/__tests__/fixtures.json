@@ -1,0 +1,604 @@
+{
+  "selectedVin": "WMW53DH03N2R81216",
+  "accessoriesList": [
+    {
+      "residualValueAdder": 400,
+      "name": "Complete Wheel & Tire Sets (19 Inch)",
+      "category": {
+        "code": "Others",
+        "displayName": "Others"
+      },
+      "partNo": "1",
+      "supplier": "OEM",
+      "installationMode": {
+        "displayName": "Pre Installed",
+        "code": "PreInstalled"
+      },
+      "description": "Complete Wheel & Tire Sets (19 Inch)",
+      "price": 400,
+      "images": [],
+      "_accessoryId": "61b7182ce1365342ef44580b"
+    },
+    {
+      "residualValueAdder": 25,
+      "name": "Bonnet Stripes",
+      "category": {
+        "code": "Others",
+        "displayName": "Others"
+      },
+      "partNo": "1",
+      "supplier": "OEM",
+      "installationMode": {
+        "displayName": "Pre Installed",
+        "code": "PreInstalled"
+      },
+      "description": "Bonnet Stripes",
+      "price": 25,
+      "images": [],
+      "_accessoryId": "61b71835e0a65418c0478624"
+    },
+    {
+      "residualValueAdder": 200,
+      "name": "John Cooper Works Sport Chassis",
+      "category": {
+        "code": "Others",
+        "displayName": "Others"
+      },
+      "partNo": "1",
+      "supplier": "OEM",
+      "installationMode": {
+        "displayName": "Pre Installed",
+        "code": "PreInstalled"
+      },
+      "description": "John Cooper Works Sport Chassis",
+      "price": 200,
+      "images": [],
+      "_accessoryId": "61b71858e0a654adea4786db"
+    }
+  ],
+  "dealerCode": "04637-02",
+  "inventoryItems": [
+    {
+      "_id": "619f7b32a1394501daaf1ca5",
+      "dealerCode": "04637-02",
+      "vin": "WMW53DH03N2R81216",
+      "stockNumber": null,
+      "make": "MINI",
+      "modelCode": "HARDTOP2DOOR",
+      "internetPrice": 31750,
+      "msrp": 31750,
+      "mileage": 0,
+      "type": 2,
+      "transmissionType": "Automatic",
+      "engineDescription": "2.0L 4 Cylinder",
+      "photoUrls": [
+        "http://mini-inventory-stockassets-prod.azureedge.net/images/WMW53DH03N2R81216_1.jpg",
+        "http://mini-inventory-stockassets-prod.azureedge.net/images/WMW53DH03N2R81216_2.jpg",
+        "http://mini-inventory-stockassets-prod.azureedge.net/images/WMW53DH03N2R81216_3.jpg",
+        "http://mini-inventory-stockassets-prod.azureedge.net/images/WMW53DH03N2R81216_4.jpg",
+        "http://mini-inventory-stockassets-prod.azureedge.net/images/WMW53DH03N2R81216_5.jpg",
+        "http://mini-inventory-stockassets-prod.azureedge.net/images/WMW53DH03N2R81216_6.jpg",
+        "http://mini-inventory-stockassets-prod.azureedge.net/images/WMW53DH03N2R81216_7.jpg",
+        "http://mini-inventory-stockassets-prod.azureedge.net/images/WMW53DH03N2R81216_8.jpg"
+      ],
+      "model": "HARDTOP 2 DOOR",
+      "updatedAt": "2021-12-14T06:48:59.188Z",
+      "makeModel": "MINI HARDTOP 2 DOOR",
+      "publish": false,
+      "status": "Available",
+      "loadedOn": "2021-11-24T11:58:52.000Z",
+      "dailyInventoryUpdate": true,
+      "accessories": [
+        {
+          "residualValueAdder": 400,
+          "name": "Complete Wheel & Tire Sets (19 Inch)",
+          "category": {
+            "code": "Others",
+            "displayName": "Others"
+          },
+          "partNo": "1",
+          "supplier": "OEM",
+          "installationMode": {
+            "displayName": "Pre Installed",
+            "code": "PreInstalled"
+          },
+          "description": "Complete Wheel & Tire Sets (19 Inch)",
+          "price": 400,
+          "images": [],
+          "_accessoryId": "61b7182ce1365342ef44580b"
+        },
+        {
+          "residualValueAdder": 25,
+          "name": "Bonnet Stripes",
+          "category": {
+            "code": "Others",
+            "displayName": "Others"
+          },
+          "partNo": "1",
+          "supplier": "OEM",
+          "installationMode": {
+            "displayName": "Pre Installed",
+            "code": "PreInstalled"
+          },
+          "description": "Bonnet Stripes",
+          "price": 25,
+          "images": [],
+          "_accessoryId": "61b71835e0a65418c0478624"
+        },
+        {
+          "residualValueAdder": 200,
+          "name": "John Cooper Works Sport Chassis",
+          "category": {
+            "code": "Others",
+            "displayName": "Others"
+          },
+          "partNo": "1",
+          "supplier": "OEM",
+          "installationMode": {
+            "displayName": "Pre Installed",
+            "code": "PreInstalled"
+          },
+          "description": "John Cooper Works Sport Chassis",
+          "price": 200,
+          "images": [],
+          "_accessoryId": "61b71858e0a654adea4786db"
+        }
+      ]
+    },
+    {
+      "_id": "61423478b2de04b537b52320",
+      "dealerCode": "20626-01",
+      "vin": "WMWLV7C02L2M85508",
+      "make": "MINI",
+      "internetPrice": 37099,
+      "msrp": 37090,
+      "mileage": 10554,
+      "transmissionType": "Automatic",
+      "engineDescription": "2.0L 4 Cylinder",
+      "photoUrls": [
+        "http://mini-inventory-assets-prod.azureedge.net/images/WMWLV7C02L2M85508_1.jpg",
+        "http://mini-inventory-assets-prod.azureedge.net/images/WMWLV7C02L2M85508_2.jpg",
+        "http://mini-inventory-assets-prod.azureedge.net/images/WMWLV7C02L2M85508_3.jpg",
+        "http://mini-inventory-assets-prod.azureedge.net/images/WMWLV7C02L2M85508_4.jpg",
+        "http://mini-inventory-assets-prod.azureedge.net/images/WMWLV7C02L2M85508_5.jpg",
+        "http://mini-inventory-assets-prod.azureedge.net/images/WMWLV7C02L2M85508_6.jpg",
+        "http://mini-inventory-assets-prod.azureedge.net/images/WMWLV7C02L2M85508_7.jpg",
+        "http://mini-inventory-assets-prod.azureedge.net/images/WMWLV7C02L2M85508_8.jpg",
+        "http://mini-inventory-assets-prod.azureedge.net/images/WMWLV7C02L2M85508_9.jpg",
+        "http://mini-inventory-assets-prod.azureedge.net/images/WMWLV7C02L2M85508_10.jpg",
+        "http://mini-inventory-assets-prod.azureedge.net/images/WMWLV7C02L2M85508_11.jpg",
+        "http://mini-inventory-assets-prod.azureedge.net/images/WMWLV7C02L2M85508_12.jpg",
+        "http://mini-inventory-assets-prod.azureedge.net/images/WMWLV7C02L2M85508_13.jpg",
+        "http://mini-inventory-assets-prod.azureedge.net/images/WMWLV7C02L2M85508_14.jpg"
+      ],
+      "model": "CLUBMAN",
+      "modelCode": "CLUBMAN",
+      "updatedAt": "2021-10-04T10:30:04.693Z",
+      "makeModel": "MINI CLUBMAN",
+      "publish": true,
+      "status": "Available",
+      "loadedOn": "2021-09-19T17:59:07.000Z",
+      "dailyInventoryUpdate": true,
+      "originalInternetPrice": 37090,
+      "accessories": [
+        {
+          "residualValueAdder": 200,
+          "name": "John Cooper Works Aero Kit",
+          "category": {
+            "code": "LightAlloyWheels",
+            "displayName": "Light Alloy Wheels"
+          },
+          "partNo": "1",
+          "supplier": "OEM",
+          "installationMode": {
+            "code": "PreInstalled",
+            "displayName": "Pre Installed"
+          },
+          "description": "John Cooper Works Aero Kit",
+          "price": 200,
+          "images": [
+            {
+              "_id": "615ad3c4eee7ee7183735d83",
+              "name": "7cd869b1-2f11-44d1-9e9d-d8593dbde91d.jpg"
+            }
+          ],
+          "_accessoryId": "6152b3f7490271f8a6647579"
+        }
+      ]
+    }
+  ],
+  "permAddonFlag": {
+    "image": {
+      "dealerCode": [],
+      "rule": false,
+      "tenant": []
+    },
+    "module": {
+      "dealerCode": [],
+      "rule": false,
+      "tenant": []
+    }
+  },
+  "totalPrice": 625.0,
+  "dealerAccessories": [
+    {
+      "_id": "61a62ea40d154adf30892769",
+      "residualValueAdder": 200,
+      "name": "Test",
+      "category": {
+        "code": "Others",
+        "displayName": "Others"
+      },
+      "partNo": "1",
+      "supplier": "OEM",
+      "installationMode": {
+        "code": "Optional",
+        "displayName": "Optional"
+      },
+      "isActive": true,
+      "description": "Complete Wheel & Tire Sets (18 Inch)",
+      "price": 200,
+      "compatibleModels": [
+        {
+          "code": "CLUBMAN",
+          "displayName": "CLUBMAN"
+        },
+        {
+          "code": "CONVERTIBLE",
+          "displayName": "CONVERTIBLE"
+        },
+        {
+          "code": "COUNTRYMAN",
+          "displayName": "COUNTRYMAN"
+        },
+        {
+          "code": "HARDTOP2DOOR",
+          "displayName": "HARDTOP 2 DOOR"
+        },
+        {
+          "code": "HARDTOP4DOOR",
+          "displayName": "HARDTOP 4 DOOR"
+        }
+      ],
+      "dealerCode": "04637-02",
+      "images": [],
+      "createdAt": "2021-11-30T14:01:08.499Z",
+      "updatedAt": "2021-12-14T09:28:42.726Z",
+      "__v": 0
+    },
+    {
+      "_id": "61a62ead0d154ae17689276a",
+      "residualValueAdder": 75,
+      "name": "Driving Lamps (Chronic or Black)",
+      "category": {
+        "code": "Others",
+        "displayName": "Others"
+      },
+      "partNo": "1",
+      "supplier": "OEM",
+      "installationMode": {
+        "code": "Optional",
+        "displayName": "Optional"
+      },
+      "isActive": true,
+      "description": "Driving Lamps (Chronic or Black)",
+      "price": 75,
+      "compatibleModels": [
+        {
+          "code": "CLUBMAN",
+          "displayName": "CLUBMAN"
+        },
+        {
+          "code": "CONVERTIBLE",
+          "displayName": "CONVERTIBLE"
+        },
+        {
+          "code": "COUNTRYMAN",
+          "displayName": "COUNTRYMAN"
+        },
+        {
+          "code": "HARDTOP2DOOR",
+          "displayName": "HARDTOP 2 DOOR"
+        },
+        {
+          "code": "HARDTOP4DOOR",
+          "displayName": "HARDTOP 4 DOOR"
+        }
+      ],
+      "dealerCode": "04637-02",
+      "images": [],
+      "createdAt": "2021-11-30T14:01:17.541Z",
+      "updatedAt": "2021-12-13T09:54:46.099Z",
+      "__v": 0
+    },
+    {
+      "_id": "61b7182ce1365342ef44580b",
+      "residualValueAdder": 400,
+      "name": "Complete Wheel & Tire Sets (19 Inch)",
+      "category": {
+        "code": "Others",
+        "displayName": "Others"
+      },
+      "partNo": "1",
+      "supplier": "OEM",
+      "installationMode": {
+        "code": "PreInstalled",
+        "displayName": "Pre Installed"
+      },
+      "isActive": true,
+      "description": "Complete Wheel & Tire Sets (19 Inch)",
+      "price": 400,
+      "compatibleModels": [
+        {
+          "code": "CLUBMAN",
+          "displayName": "CLUBMAN"
+        },
+        {
+          "code": "CONVERTIBLE",
+          "displayName": "CONVERTIBLE"
+        },
+        {
+          "code": "COUNTRYMAN",
+          "displayName": "COUNTRYMAN"
+        },
+        {
+          "code": "HARDTOP2DOOR",
+          "displayName": "HARDTOP 2 DOOR"
+        },
+        {
+          "code": "HARDTOP4DOOR",
+          "displayName": "HARDTOP 4 DOOR"
+        }
+      ],
+      "dealerCode": "04637-02",
+      "images": [],
+      "createdAt": "2021-12-13T09:53:48.605Z",
+      "updatedAt": "2021-12-13T09:53:48.605Z",
+      "__v": 0
+    },
+    {
+      "_id": "61b71835e0a65418c0478624",
+      "residualValueAdder": 25,
+      "name": "Bonnet Stripes",
+      "category": {
+        "code": "Others",
+        "displayName": "Others"
+      },
+      "partNo": "1",
+      "supplier": "OEM",
+      "installationMode": {
+        "code": "PreInstalled",
+        "displayName": "Pre Installed"
+      },
+      "isActive": true,
+      "description": "Bonnet Stripes",
+      "price": 25,
+      "compatibleModels": [
+        {
+          "code": "CLUBMAN",
+          "displayName": "CLUBMAN"
+        },
+        {
+          "code": "CONVERTIBLE",
+          "displayName": "CONVERTIBLE"
+        },
+        {
+          "code": "COUNTRYMAN",
+          "displayName": "COUNTRYMAN"
+        },
+        {
+          "code": "HARDTOP2DOOR",
+          "displayName": "HARDTOP 2 DOOR"
+        },
+        {
+          "code": "HARDTOP4DOOR",
+          "displayName": "HARDTOP 4 DOOR"
+        }
+      ],
+      "dealerCode": "04637-02",
+      "images": [],
+      "createdAt": "2021-12-13T09:53:57.876Z",
+      "updatedAt": "2021-12-13T09:53:57.876Z",
+      "__v": 0
+    },
+    {
+      "_id": "61b7183ee0a65458e0478625",
+      "residualValueAdder": 400,
+      "name": "Complete Wheel & Tire Sets (19 Inch)",
+      "category": {
+        "code": "Others",
+        "displayName": "Others"
+      },
+      "partNo": "1",
+      "supplier": "OEM",
+      "installationMode": {
+        "code": "PreInstalled",
+        "displayName": "Pre Installed"
+      },
+      "isActive": true,
+      "description": "Complete Wheel & Tire Sets (19 Inch)",
+      "price": 400,
+      "compatibleModels": [
+        {
+          "code": "CLUBMAN",
+          "displayName": "CLUBMAN"
+        },
+        {
+          "code": "CONVERTIBLE",
+          "displayName": "CONVERTIBLE"
+        },
+        {
+          "code": "COUNTRYMAN",
+          "displayName": "COUNTRYMAN"
+        },
+        {
+          "code": "HARDTOP2DOOR",
+          "displayName": "HARDTOP 2 DOOR"
+        },
+        {
+          "code": "HARDTOP4DOOR",
+          "displayName": "HARDTOP 4 DOOR"
+        }
+      ],
+      "dealerCode": "04637-02",
+      "images": [],
+      "createdAt": "2021-12-13T09:54:06.703Z",
+      "updatedAt": "2021-12-13T09:54:06.703Z",
+      "__v": 0
+    },
+    {
+      "_id": "61b71849e1365355594458cd",
+      "residualValueAdder": 50,
+      "name": "Hardtop Roof Spoiler",
+      "category": {
+        "code": "Others",
+        "displayName": "Others"
+      },
+      "partNo": "1",
+      "supplier": "OEM",
+      "installationMode": {
+        "code": "PreInstalled",
+        "displayName": "Pre Installed"
+      },
+      "isActive": true,
+      "description": "Hardtop Roof Spoiler",
+      "price": 50,
+      "compatibleModels": [
+        {
+          "code": "CLUBMAN",
+          "displayName": "CLUBMAN"
+        },
+        {
+          "code": "CONVERTIBLE",
+          "displayName": "CONVERTIBLE"
+        },
+        {
+          "code": "COUNTRYMAN",
+          "displayName": "COUNTRYMAN"
+        },
+        {
+          "code": "HARDTOP2DOOR",
+          "displayName": "HARDTOP 2 DOOR"
+        },
+        {
+          "code": "HARDTOP4DOOR",
+          "displayName": "HARDTOP 4 DOOR"
+        }
+      ],
+      "dealerCode": "04637-02",
+      "images": [],
+      "createdAt": "2021-12-13T09:54:17.088Z",
+      "updatedAt": "2021-12-13T09:54:17.088Z",
+      "__v": 0
+    },
+    {
+      "_id": "61b71858e0a654adea4786db",
+      "residualValueAdder": 200,
+      "name": "John Cooper Works Sport Chassis",
+      "category": {
+        "code": "Others",
+        "displayName": "Others"
+      },
+      "partNo": "1",
+      "supplier": "OEM",
+      "installationMode": {
+        "code": "Optional",
+        "displayName": "Optional"
+      },
+      "isActive": true,
+      "description": "John Cooper Works Sport Chassis",
+      "price": 200,
+      "compatibleModels": [
+        {
+          "code": "CLUBMAN",
+          "displayName": "CLUBMAN"
+        },
+        {
+          "code": "CONVERTIBLE",
+          "displayName": "CONVERTIBLE"
+        },
+        {
+          "code": "COUNTRYMAN",
+          "displayName": "COUNTRYMAN"
+        },
+        {
+          "code": "HARDTOP2DOOR",
+          "displayName": "HARDTOP 2 DOOR"
+        },
+        {
+          "code": "HARDTOP4DOOR",
+          "displayName": "HARDTOP 4 DOOR"
+        }
+      ],
+      "dealerCode": "04637-02",
+      "images": [],
+      "createdAt": "2021-12-13T09:54:32.296Z",
+      "updatedAt": "2021-12-13T09:54:54.072Z",
+      "__v": 0
+    },
+    {
+      "_id": "61b849f4e0a654e511481667",
+      "residualValueAdder": 0,
+      "name": "Muzz Testing New",
+      "category": {
+        "code": "AlloyWheels",
+        "displayName": "Alloy Wheels"
+      },
+      "partNo": "aaaa",
+      "supplier": "ME",
+      "installationMode": {
+        "code": "Pre Installed",
+        "displayName": "Pre Installed"
+      },
+      "isActive": true,
+      "description": "This a test addon",
+      "price": 333,
+      "images": [
+        {
+          "name": "123",
+          "path": "https://fdevcusst01.blob.core.windows.net/fair-private/accessoryProductImages/123?st=2021-12-14T09%3A28%3A02Z&se=2021-12-14T10%3A29%3A02Z&sp=r&sv=2018-03-28&sr=b&sig=MHxiqxQpAH3%2BZxQsF%2FIlaiegoTvIVDfep%2BcQZL4GRTU%3D"
+        },
+        {
+          "name": "456",
+          "path": "https://fdevcusst01.blob.core.windows.net/fair-private/accessoryProductImages/456?st=2021-12-14T09%3A28%3A02Z&se=2021-12-14T10%3A29%3A02Z&sp=r&sv=2018-03-28&sr=b&sig=eLcCapIura%2FN4bcAU2Rm63vvOF2BzADO0dj0MVtIp0o%3D"
+        }
+      ],
+      "compatibleModels": [
+        {
+          "code": "CLUBMAN",
+          "displayName": "CLUBMAN"
+        },
+        {
+          "code": "CONVERTIBLE",
+          "displayName": "CONVERTIBLE"
+        },
+        {
+          "code": "COUNTRYMAN",
+          "displayName": "COUNTRYMAN"
+        },
+        {
+          "code": "HARDTOP2DOOR",
+          "displayName": "HARDTOP 2 DOOR"
+        },
+        {
+          "code": "HARDTOP4DOOR",
+          "displayName": "HARDTOP 4 DOOR"
+        }
+      ],
+      "dealerCode": "04637-02",
+      "createdAt": "2021-12-14T07:38:28.115Z",
+      "updatedAt": "2021-12-14T07:38:28.115Z",
+      "__v": 0
+    }
+  ],
+  "installationModeOptions": [
+    {
+      "value": "PreInstalled",
+      "label": "Pre Installed"
+    },
+    {
+      "value": "Optional",
+      "label": "Optional"
+    }
+  ]
+}

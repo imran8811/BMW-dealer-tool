@@ -1,0 +1,62 @@
+@import "theme";
+@import "~bootstrap/scss/mixins/_breakpoints";
+@import "~bootstrap/scss/grid";
+
+.financeSaveBtnWrap {
+  display: flex;
+  @include media-breakpoint-down(md) {
+    flex-direction: column-reverse;
+    button {
+      margin-top: 10px;
+    }
+  }
+  @include media-breakpoint-up(lg) {
+    button[type="button"] {
+      margin-right: 10px;
+    }
+    button[type="submit"] {
+      margin-left: 10px;
+    }
+  }
+}
+
+.loading {
+  cursor: no-drop;
+}
+
+.financeRowWrap {
+  @extend .row;
+  align-items: baseline;
+  @include media-breakpoint-up(lg) {
+    & div:nth-child(1) {
+      padding-right: 2px;
+    }
+    & div:nth-child(2) {
+      padding: 0 2px;
+    }
+    & div:nth-child(3) {
+      padding: 0;
+    }
+  }
+}
+
+.financeddialog {
+  :global .p-dialog-header-icons {
+    display: none;
+  }
+  @include media-breakpoint-up(md) {
+    width: 640px;
+  }
+}
+
+.deleteBtn {
+  text-align: center;
+  @include media-breakpoint-up(lg) {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 10px;
+    align-items: center;
+    text-align: unset;
+  }
+}

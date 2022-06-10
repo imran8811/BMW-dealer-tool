@@ -1,0 +1,49 @@
+@import "theme";
+@import "~bootstrap/scss/grid";
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: (32rem / 16);
+  margin: 0;
+  line-height: 1em;
+
+  @include media-breakpoint-up(lg) {
+    font-size: (56rem / 16);
+  }
+}
+
+.subtitle {
+  color: $text-muted;
+  font-size: (20rem / 16);
+  line-height: 1em;
+
+  @include media-breakpoint-up(lg) {
+    font-size: (32rem / 16);
+  }
+}
+
+.divider {
+  width: 100px;
+  height: (5rem / 16);
+  background: $primary;
+  display: block;
+  border: none;
+  margin: ($spacer / 2) 0 1rem;
+}
+
+.label {
+  display: inline-block;
+  color: $text-muted;
+  min-width: $label-min-width;
+}
+
+.priceValue {
+  display: block;
+  font-size: (40rem / 16);
+  font-weight: $font-weight-bold;
+  color: $primary;
+}

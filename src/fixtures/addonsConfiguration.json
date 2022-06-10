@@ -1,0 +1,41 @@
+{
+  "pageData": [
+    {
+      "_id": "2323",
+      "description": "Front Bumper Spoiler",
+      "category": "Sports & Design",
+      "status": true,
+      "partNo": "5J0071606",
+      "price": 500.0,
+      "supplier": "OEM",
+      "installationMode": "Optional",
+      "rvAdder": 500.0
+    },
+    {
+      "_id": "23d3",
+      "description": "Front Bumper Spoiler",
+      "category": "Discounts",
+      "status": false,
+      "partNo": "5J0071606",
+      "price": 200.0,
+      "supplier": "Dealer Own",
+      "installationMode": "Pre-Installed",
+      "rvAdder": 400.0
+    },
+    {
+      "_id": "2s23",
+      "description": "Front Bumper Spoiler",
+      "category": "Sports & Design",
+      "status": true,
+      "partNo": "5J0071606",
+      "price": 500.0,
+      "supplier": "OEM",
+      "installationMode": "Optional",
+      "rvAdder": 500.0
+    }
+  ],
+  "page": 1,
+  "total": 42,
+  "limit": 9007199254740991,
+  "pages": 1
+}

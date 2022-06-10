@@ -1,0 +1,21 @@
+@import "theme";
+@import "~bootstrap/scss/forms";
+
+.calendar {
+  width: 100%;
+}
+
+.input {
+  @extend .form-control;
+}
+
+.calendar :global .p-datepicker-prev-icon,
+.calendar :global .p-datepicker-next-icon {
+  background-image: url(./assets/arrow.svg);
+  width: 1rem;
+  height: 1rem;
+}
+
+.calendar :global .p-datepicker-next-icon {
+  transform: rotate(180deg);
+}

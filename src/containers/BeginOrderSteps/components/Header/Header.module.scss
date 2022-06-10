@@ -1,0 +1,49 @@
+@import "theme";
+@import "~bootstrap/scss/mixins/_breakpoints";
+
+.header-wrap {
+  position: relative;
+  padding: 20px 0;
+}
+
+.title {
+  margin: 0;
+  @include media-breakpoint-down(sm) {
+    font-size: 1.5rem;
+  }
+}
+.subHeading {
+  @include media-breakpoint-down(sm) {
+    font-size: 0.6875rem;
+  }
+}
+.mbLess20 {
+  @include media-breakpoint-up(md){
+    margin-bottom: -20px;
+  }
+}
+.auto_img_wrapper {
+  padding-right: 20px;
+}
+.auto_img_wrapper img {
+  display: block;
+  width: 55%;
+  float: right;
+  @include media-breakpoint-down(md){
+    width: 100%;
+  }
+}
+
+.backBtn {
+  background: transparent;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  @include media-breakpoint-down(sm) {
+    display: none;
+  }
+}
+
+.backBtn:focus{
+  outline: none;
+}

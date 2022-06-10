@@ -1,0 +1,19 @@
+@import "theme";
+@import "~bootstrap/scss/utilities/spacing";
+
+.scheduledTime {
+  display: flex;
+  align-items: center;
+}
+
+.scheduledTimeIcon {
+  @extend .mr-2;
+  @extend .pr-2;
+  color: $primary;
+  margin-bottom: 0.125rem;
+  border-right: $border-size solid $border-color-light;
+}
+
+.scheduledTimeText {
+  color: $black;
+}

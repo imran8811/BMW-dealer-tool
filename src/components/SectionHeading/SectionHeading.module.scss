@@ -1,0 +1,35 @@
+@import "theme";
+@import "~bootstrap/scss/utilities/spacing";
+@import "~bootstrap/scss/mixins/_breakpoints";
+
+.mainheading,
+.itemcount {
+  font-size: 40px;
+  line-height: 45px;
+  color: #000;
+  @include media-breakpoint-down(sm) {
+    font-size: 27px;
+  }
+}
+
+.mainheading {
+  text-transform: $main-heading-text-transform;
+}
+
+.itemcount {
+  color: $primary;
+}
+
+.subheading {
+  font-size: 16px;
+  line-height: 21px;
+  color: #000;
+}
+
+.icon {
+  @extend .mr-2;
+  display: inline-block;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  vertical-align: 0.125rem;
+}

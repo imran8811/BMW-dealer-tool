@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-3{fill:currentColor;stroke:currentColor;stroke-width:1.5px;stroke-linecap:round}
+    </style>
+  </defs>
+  <g id="Group_2242" transform="translate(-1264 -743)">
+    <path id="Rectangle_7851" fill="none" d="M0 0h24v24H0z" transform="translate(1264 743)"/>
+    <rect id="Rectangle_7852" width="14" height="13" fill="none" stroke="currentColor" stroke-width="1.5" rx="2" transform="translate(1269 749)"/>
+    <path id="Line_328" d="M0 0v3" class="cls-3" transform="translate(1273 747.5)"/>
+    <path id="Line_331" d="M0 0v3" class="cls-3" transform="translate(1279 747.5)"/>
+    <path id="Line_330" d="M0 0h14" class="cls-3" transform="translate(1269 754)"/>
+  </g>
+</svg>

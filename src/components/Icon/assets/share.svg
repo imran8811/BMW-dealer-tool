@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px}
+        </style>
+    </defs>
+    <g id="Share" transform="translate(13363 13356)">
+        <path id="Rectangle_6377" fill="none" d="M0 0H24V24H0z" transform="translate(-13363 -13356)"/>
+        <g id="Group_1202">
+            <path id="Path_6729" d="M21 15v3.895A3.2 3.2 0 0 1 17.719 22H6.281A3.2 3.2 0 0 1 3 18.895V15" class="cls-2" transform="translate(-13363 -13356)"/>
+            <path id="Path_6730" d="M12 14V3" class="cls-2" transform="translate(-13363 -13355.5)"/>
+            <path id="Path_6731" d="M17.477 2.566l-5.5 4.954-5.5-4.954" class="cls-2" transform="translate(-13363 -13349.066)"/>
+        </g>
+    </g>
+</svg>

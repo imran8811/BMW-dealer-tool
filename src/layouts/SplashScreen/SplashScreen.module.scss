@@ -1,0 +1,35 @@
+@import "theme";
+@import "~bootstrap/scss/utilities/spacing";
+@import "~bootstrap/scss/utilities/display";
+@import "~bootstrap/scss/utilities/sizing";
+
+.aside {
+  @extend .d-none;
+  @extend .d-lg-block;
+  @extend .w-50;
+  overflow: hidden;
+  position: relative;
+  max-height: 100%;
+
+  picture {
+    display: flex;
+    height: 100%;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: 0% 50%;
+      position: absolute;
+    }
+  }
+}
+
+.logo {
+  color: $black;
+  width: 5.5rem;
+
+  @include media-breakpoint-down(md) {
+    margin-left: $grid-gutter-width;
+  }
+}

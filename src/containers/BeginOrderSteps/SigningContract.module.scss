@@ -1,0 +1,10 @@
+@import "theme";
+@import "~bootstrap/scss/mixins/_breakpoints";
+
+.border-right-md {
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  @include media-breakpoint-down(md) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-right: unset;
+  }
+}

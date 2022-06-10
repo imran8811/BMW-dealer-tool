@@ -1,0 +1,44 @@
+@import "theme";
+@import "~bootstrap/scss/mixins/_breakpoints";
+
+.wrapper {
+  :global .p-tabview-ink-bar {
+    display: none;
+  }
+
+  :global .p-tabview-nav {
+    display: inline-flex;
+    list-style: none;
+    min-height: 48px;
+    min-width: 100%;
+    background: $dim-grey;
+    border-radius: 6px;
+    padding: 2px 3px;
+    li {
+      width: 100%;
+      border-radius: 6px;
+    }
+    a {
+      display: flex;
+      height: 100%;
+      width: 100%;
+      text-decoration: none;
+      color: $grey;
+      align-items: center;
+      justify-content: center;
+      @include media-breakpoint-down(sm) {
+        font-size: 13px;
+      }
+      span {
+        text-align: center;
+      }
+    }
+  }
+  :global .p-tabview-selected.p-highlight {
+    background: $white;
+    a {
+      font-weight: bolder;
+      color: $black;
+    }
+  }
+}

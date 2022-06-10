@@ -1,0 +1,13 @@
+@import "theme";
+@import "~bootstrap/scss/mixins/_breakpoints";
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+.fs20 {
+  font-size: 1.25rem;
+  @include media-breakpoint-down(md) {
+    font-size: 1rem;
+  }
+}

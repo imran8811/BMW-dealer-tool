@@ -1,0 +1,20 @@
+@import "theme";
+@import "~bootstrap/scss/mixins/_breakpoints";
+
+.borderRight {
+  border-right: 1px solid $border-color-light;
+}
+
+.customerLocation {
+  height: 15.4375rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.borderRightText {
+  border-right: 2px solid $black;
+  @include media-breakpoint-down(sm) {
+    border: 0px;
+    padding-bottom: 15px;
+  }
+}

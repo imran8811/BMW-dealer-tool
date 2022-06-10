@@ -1,0 +1,243 @@
+@import "theme";
+@import "~bootstrap/scss/mixins/_breakpoints";
+
+.title {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.subheading {
+  color: $text-muted;
+  font-weight: bold;
+  font-size: 14px;
+}
+//  Divider below vehicle name
+.divider {
+  height: 4px;
+  background: $primary;
+  width: 80px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.textWrap {
+  font-size: 14px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  color: $text-muted;
+}
+.totalHeading {
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.kbb-values-text {
+  font-size: 14px;
+  color: $black;
+  font-weight: 400;
+  padding-left: 5px;
+  max-width: inherit;
+  overflow-wrap: break-word;
+}
+.dealerComment {
+  max-width: inherit;
+  overflow-wrap: break-word;
+}
+.carosalImage {
+  width: inherit;
+  height: auto;
+  max-width: 226px;
+  max-height: 160px;
+}
+.carosalImageWrapper {
+  display: inline-flex;
+  div {
+    width: inherit;
+    height: auto;
+    max-width: 226px;
+    margin-bottom: 2rem;
+    position: relative;
+  }
+}
+.expandImage {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+.carosalWrap {
+  @include media-breakpoint-down(sm) {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+// Divider Above Accordion Content
+.dividerAccordion {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  height: 0.5px;
+  background: $light-grey;
+}
+
+.totalBalanceWrap {
+  text-align: right;
+  @include media-breakpoint-down(sm) {
+    text-align: left;
+  }
+  @include media-breakpoint-up(sm) {
+    padding-left: 0;
+    margin-left: 0;
+  }
+}
+
+.extendedQuestions {
+  @include media-breakpoint-up(sm) {
+    padding-top: 75px;
+  }
+  @include media-breakpoint-up(lg) {
+    padding-top: 40px;
+  }
+}
+
+.extendedQuestionsCompact {
+  @include media-breakpoint-up(sm) {
+    padding-top: 40px;
+  }
+  @include media-breakpoint-up(lg) {
+    padding-top: 40px;
+  }
+}
+
+.assetHeading {
+  @include media-breakpoint-down(sm) {
+    margin-top: 20px;
+  }
+}
+
+// View More details Text Positioning
+.tabHeader {
+  a {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    max-width: 170px;
+  }
+
+  @include media-breakpoint-down(sm) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  :global .p-accordion-header-text {
+    position: relative;
+    left: -31px;
+  }
+}
+
+// View More Details Text When there no Image
+.tabHeaderWithImg {
+  @include media-breakpoint-up(sm) {
+    position: relative;
+    top: -60px;
+  }
+}
+
+//  Accordion Icons
+.collapseIcon {
+  background: url("./arrow-accordion.svg");
+  background-repeat: no-repeat;
+  padding: 10px;
+  position: relative;
+  left: 115px;
+  top: -1px;
+}
+
+.expandIcon {
+  background: url("./arrow-down.svg");
+  background-repeat: no-repeat;
+  padding: 10px;
+  position: relative;
+  left: 115px;
+  top: -1px;
+}
+
+.gallery {
+  max-width: 70vw;
+  max-height: 70vh;
+}
+
+.galleriaWrap {
+  @include media-breakpoint-down(sm) {
+    :global .p-galleria-item-container {
+      button.p-galleria-item-prev::before {
+        content: "<";
+        color: $white;
+        position: absolute;
+        left: 20px;
+      }
+      button.p-galleria-item-next::after {
+        content: ">";
+        color: $white;
+        position: absolute;
+        right: 20px;
+      }
+    }
+    :global .p-galleria-close::before {
+      content: "X";
+      color: $white;
+      position: absolute;
+      left: 30px;
+    }
+  }
+}
+
+.editBtn {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 3px;
+  outline: none;
+}
+
+.tradeInForm {
+  :global .p-dialog-header {
+    span.p-dialog-title {
+      min-width: 100%;
+      text-align: center;
+    }
+    .p-dialog-header-close {
+      right: -20px;
+    }
+  }
+  .row {
+    @extend .row;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    @include media-breakpoint-down(sm) {
+      flex-direction: column-reverse;
+    }
+  }
+
+  .button {
+    flex-grow: 1;
+    width: auto;
+    @include media-breakpoint-down(md) {
+      padding: 0.8125rem 1.9rem;
+    }
+    @include media-breakpoint-down(sm) {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+
+  .saveBtn {
+    @include media-breakpoint-up(md) {
+      margin-left: 5px;
+    }
+  }
+
+  .cancelBtn {
+    @include media-breakpoint-up(md) {
+      margin-right: 5px;
+    }
+  }
+}

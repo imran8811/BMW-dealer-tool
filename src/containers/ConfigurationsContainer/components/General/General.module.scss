@@ -1,0 +1,29 @@
+@import "theme";
+@import "~bootstrap/scss/mixins/_breakpoints";
+
+.configColumn {
+  display: flex;
+  align-items: flex-end;
+}
+.wrap {
+  display: flex;
+  flex-direction: row;
+  @include media-breakpoint-down(md) {
+    flex-direction: column;
+  }
+}
+
+.modelListLink {
+  font-size: 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  cursor: pointer;
+  @include media-breakpoint-down(md) {
+    padding: 10px 0;
+  }
+  span {
+    color: $grey;
+  }
+}

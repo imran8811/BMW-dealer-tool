@@ -1,0 +1,29 @@
+@import "theme";
+@import "~bootstrap/scss/forms";
+
+.dropdown {
+  height: 3rem;
+  width: 100%;
+
+  :global(.p-dropdown-trigger) {
+    &::before {
+      content: url("../../common/assets/chevron-gray.svg");
+      margin-right: (4rem / 16);
+      margin-bottom: (2rem / 16);
+    }
+  }
+
+  :global(.p-dropdown-panel) {
+    width: calc(100% + #{(2 * $border-width)});
+    margin: -(2 * $border-width) -$border-width 0 -$border-width;
+  }
+  
+  :global(.p-dropdown-label.p-inputtext) {
+    margin: auto 0 auto $custom-select-padding-y;
+  }
+}
+
+.small {
+  height: 2.5rem;
+  font-size: $font-size-sm;
+}

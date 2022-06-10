@@ -1,0 +1,28 @@
+@import "theme";
+
+.btnAvailable {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 2rem;
+}
+.vehicleDetailsList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.featuredImg {
+  float: right;
+  margin-top: -200px;
+  margin-right: -60px;
+}
+.imgWrap:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.PriceWrap {
+  padding-left: 50px;
+}
+.VehiclePrice {
+  color: $primary;
+}

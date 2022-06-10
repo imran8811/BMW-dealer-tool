@@ -1,0 +1,23 @@
+@import "theme";
+
+$break-point: map-get($grid-breakpoints, "lg");
+
+.border-left-md {
+  position: relative;
+}
+.border-left-md::before {
+  content: "";
+  height: 100%;
+  width: 1px;
+  position: absolute;
+  left: -81px;
+  background-color: $border-color-light;
+  @media (max-width: $break-point) {
+    display: none;
+  }
+}
+.border-bottom-md {
+  @media (max-width: $break-point) {
+    border-bottom: 1px solid $border-color-light;
+  }
+}

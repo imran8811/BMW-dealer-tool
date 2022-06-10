@@ -1,0 +1,61 @@
+@import "theme";
+@import "~bootstrap/scss/mixins/_breakpoints";
+
+$mediumSix: 600px;
+$mediumFive: 500px;
+
+.title {
+  color: $black;
+  font-size: 40px;
+  line-height: 44px;
+  text-align: center;
+  @media only screen and (max-width: $mediumSix) {
+    font-size: 30px;
+    line-height: 34px;
+  }
+}
+
+.description {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: $black;
+}
+
+.buttoncontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonContainerSwap {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapbox {
+  max-width: 536px;
+  padding: 44px;
+  @media only screen and (max-width: $mediumFive) {
+    padding: 10px;
+    max-width: 100%;
+  }
+}
+.confirm-dialog-container {
+  @media only screen and (max-width: $mediumSix) {
+    max-width: 95%;
+  }
+}
+
+.responsiveBtn {
+  @include media-breakpoint-down(md) {
+    padding: 0.8125rem 2.125rem;
+  }
+}
+.icon {
+  text-align: center;
+  padding-bottom: 50px;
+}

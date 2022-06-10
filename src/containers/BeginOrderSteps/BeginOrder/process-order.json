@@ -1,0 +1,205 @@
+{
+  "order": {
+    "_id": "5f7dde58eeaad030cc13cbc0",
+    "vin": "WMWLN5C59H2E32559",
+    "productCode": "Lease",
+    "productDisplayName": "Lease",
+    "termInMonths": 24,
+    "amountPerMonth": 500,
+    "downPaymentAmount": 1500,
+    "dueDate": "2019-10-29T12:00:00.000Z",
+    "taxAmount": 300,
+    "mileage": 10000,
+    "additionalMileageAmount": 25,
+    "amountDueAtSigning": 2100,
+    "_customerId": "5f7dcc0c1e3463b88b51000c",
+    "state": "VehicleTransmissionModeSelected",
+    "__v": 0,
+    "updatedAt": "2020-10-17T09:58:35.618Z",
+    "vehicleTransmissionMode": "Delivery",
+    "fees": [
+      {
+        "chargeCode": "FirstFees",
+        "chargeDisplayName": "First Fee",
+        "amount": 1000
+      },
+      {
+        "chargeCode": "SecondFees",
+        "chargeDisplayName": "Second Fee",
+        "amount": 2000
+      },
+      {
+        "chargeCode": "ThirdFees",
+        "chargeDisplayName": "Third Fee",
+        "amount": 3000
+      }
+    ],
+    "taxes": [
+      {
+        "taxCode": "FirstTax",
+        "taxDisplayName": "First Tax",
+        "amount": 100
+      },
+      {
+        "taxCode": "SecondTax",
+        "taxDisplayName": "Second Tax",
+        "amount": 200
+      },
+      {
+        "taxCode": "ThirdTax",
+        "taxDisplayName": "Third Tax",
+        "amount": 300
+      }
+    ]
+  },
+  "customer": {
+    "_id": "5f7dcc0c1e346307b751000d",
+    "emailVerificationStatus": "Unverified",
+    "phoneNumberVerificationStatus": "Unverified",
+    "email": "mustafa.ali@netsoltech.com",
+    "firstName": "Mustafa",
+    "lastName": "Ali",
+    "phoneNumber": "+92333000000",
+    "userID": "5f7dcc0c1e3463b88b51000c",
+    "phoneNumberVerification": {
+      "_id": "5f7dcc0c1e3463303c51000e",
+      "pinCode": 2271,
+      "resendPinAttemptsLeft": 2,
+      "incorrectPinAttemptsLeft": 5,
+      "pinCreatedOn": "2020-10-07T14:09:16.720Z",
+      "pinExpiredOn": "2020-10-07T14:10:16.720Z"
+    },
+    "emailVerification": {
+      "_id": "5f7dcc0c1e34636d5a51000f",
+      "token": "9f46dbac-7a60-4840-af1f-57f77f77a177",
+      "maxAttemptsAllowed": 1,
+      "createdOn": "2020-10-07T14:09:16.722Z",
+      "isTokenExpired": false,
+      "expiredInMinutes": 120,
+      "verifyUrl": "https://fair-dev.otoz.biz/email-verification?userId=5f7dcc0c1e3463b88b51000c&token=9f46dbac-7a60-4840-af1f-57f77f77a177"
+    },
+    "joiningDate": "2020-10-07T14:09:16.819Z",
+    "createdAt": "2020-10-07T14:09:16.822Z",
+    "updatedAt": "2020-10-07T14:09:16.822Z",
+    "__v": 0
+  },
+  "vehicle": {
+    "_id": "5f7ef8d304096819d630cc6d",
+    "dealerCode": "554457",
+    "vin": "WMWLN5C59H2E32559",
+    "stockNumber": "H2E32337",
+    "year": 2017,
+    "make": "MINI",
+    "model": "Cooper Clubman",
+    "bodyStyle": "4d Sport Utility",
+    "transmissionType": "A",
+    "internetPrice": 25000,
+    "mileage": 2655,
+    "trimDescription": "Coupe",
+    "msrp": 29500,
+    "doingBusinessAs": "Mini of Ann Arbor",
+    "addressTitle": null,
+    "address": "6131 Stewart Ave",
+    "city": "Cincinnati",
+    "state": "OH",
+    "zip": 45227,
+    "phoneNumber": 5132718700,
+    "fax": 5132713587,
+    "email": "Miniannarbor@miniusa.com",
+    "contactName": "Joan Allison",
+    "dealerURL": "http://www.cincinnatimini.com",
+    "price2": 0,
+    "exteriorColorDescription": "Pure Burgundy Metallic",
+    "interiorColorDescription": "Black Leather",
+    "vehicleComments": "2017 MINI Cooper Clubman Pure Burgundy Metallic I3Heated Front Seats, MINI Yours Pure Burgundy Illuminated Int. Style, Panoramic Moonroof, Rear Fog Lights, Rear Park Distance Control, Satellite Radio w/1 Year Subscription",
+    "type": 1,
+    "bodyType": "Station Wagon",
+    "transmissionSpeed": 6,
+    "transmissionDescription": "Automatic",
+    "engineCylinders": 3,
+    "doors": 2,
+    "engineDescription": "1.6L I4 DOHC 16V",
+    "vehicleClass": null,
+    "enginePower": 134,
+    "engineConfiguration": "1.6L I4 DOHC 16V",
+    "engineDisplacement": 1.6,
+    "engineInduction": "Turbocharged",
+    "fuelType": "Gas",
+    "warranty": "Full-factory",
+    "lastModified": "ISODate($lastModified)",
+    "exteriorColorManufacturerCode": "K9E1",
+    "interiorColorManufacturerCode": "NEE1",
+    "packagesAndOptionDescription": [
+      {
+        "code": "Technology Package",
+        "options": ["Sirius XM", "Bluetooth"]
+      },
+      {
+        "code": "Luxury Package",
+        "options": ["Heated Leather Seats"]
+      }
+    ],
+    "stockPhotos": [
+      "https://minidealerprograms.com/stock/123MINI/60a7aa6c19f5d5b2ea41009bc09cda18x.jpg",
+      "https://minidealerprograms.com/stcok/123MINI/87a7aa6c19f5d5b2eeno009bc09cda18x.jpg"
+    ],
+    "photoUrls": [
+      "https://fdevseast01.blob.core.windows.net/fair/1.png",
+      "https://fdevseast01.blob.core.windows.net/fair/2.png"
+    ],
+    "vehicleURL": [
+      "https://fdevseast01.blob.core.windows.net/fair/1.png",
+      "https://fdevseast01.blob.core.windows.net/fair/2.png"
+    ],
+    "optionDescription": [
+      "Satellite Radio Preparation",
+      "Outboard Front Lap And Shoulder Safety Belts -inc: Rear Center 3 Point and Pretensioners",
+      "Electronic Stability Control (ESC)",
+      "ABS And Driveline Traction Control",
+      "Low Tire Pressure Warning"
+    ],
+    "isDeleted": true,
+    "isUpdated": false,
+    "containerFileName": "MINI_Inventory_NewMaster_10-20-2020.txt",
+    "makeModel": "MINI Cooper Clubman",
+    "publish": false,
+    "status": "Available",
+    "loadedOn": "10/08/2020, 11:25:45",
+    "createdAt": "10/08/2020, 11:25:45",
+    "updatedAt": "2020-10-13T14:58:48.952Z"
+  },
+  "taxes": [
+    {
+      "taxCode": "FirstTax",
+      "taxDisplayName": "First Tax",
+      "amount": 100
+    },
+    {
+      "taxCode": "SecondTax",
+      "taxDisplayName": "Second Tax",
+      "amount": 200
+    },
+    {
+      "taxCode": "ThirdTax",
+      "taxDisplayName": "Third Tax",
+      "amount": 300
+    }
+  ],
+  "fees": [
+    {
+      "chargeCode": "FirstFees",
+      "chargeDisplayName": "First Fee",
+      "amount": 1000
+    },
+    {
+      "chargeCode": "SecondFees",
+      "chargeDisplayName": "Second Fee",
+      "amount": 2000
+    },
+    {
+      "chargeCode": "ThirdFees",
+      "chargeDisplayName": "Third Fee",
+      "amount": 3000
+    }
+  ]
+}
